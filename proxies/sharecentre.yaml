@@ -1,0 +1,192 @@
+proxies:
+  - type: vmess
+    name: 更多节点关注@ShareCentrePro
+    server: 127.0.0.1
+    port: '443'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: 「节点冠名招商中」UK-CF-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: nl.sharecentrepro.com
+      headers:
+        host: nl.sharecentrepro.com
+      path: /shirker
+  - type: vmess
+    name: 「SCP」UK2-CF-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: uk2.scproxy.top
+      headers:
+        host: uk2.scproxy.top
+      path: /shirker
+  - type: vmess
+    name: 「CoralMoss 优质国内独享入口 cmoss.top」US-BuyVM1-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: lv1.sharecentrepro.org
+      headers:
+        host: lv1.sharecentrepro.org
+      path: /shirker
+  - type: vmess
+    name: 「奶云稳定流媒体中转机场 milk.acow.wtf」HK-CF-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: hk-hytron.ilovescp.com
+      headers:
+        host: hk-hytron.ilovescp.com
+      path: /shirker
+  - type: vmess
+    name: 「三年老牌机场： 棉花云.com 」SG-DO-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: do.sharecentrepro.com
+      headers:
+        host: do.sharecentrepro.com
+      path: /shirker
+  - type: vmess
+    name: 「SCP」NNC-CF-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: ca.ilovescp.com
+      headers:
+        host: ca.ilovescp.com
+      path: /shirker
+  - type: vmess
+    name: 「SCP」US-BuyVM2-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: lv1.sharecentrepro.org
+      headers:
+        host: lv1.sharecentrepro.org
+      path: /shirker
+  - type: vmess
+    name: 「SCP」US-BuyVM3-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: lv2.sharecentrepro.org
+      headers:
+        host: lv2.sharecentrepro.org
+      path: /shirker
+  - type: vmess
+    name: 「SCP」US-BuyVM4-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: lv3.sharecentrepro.org
+      headers:
+        host: lv3.sharecentrepro.org
+      path: /shirker
+  - type: vmess
+    name: 「SCP」US-DP1-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: dp1.scproxy.top
+      headers:
+        host: dp1.scproxy.top
+      path: /shirker
+  - type: vmess
+    name: 「SCP」US-DP3-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: dp3.scproxy.top
+      headers:
+        host: dp3.scproxy.top
+      path: /shirker
+  - type: vmess
+    name: 「SCP」US-DP4-HTTP
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: dp4.scproxy.top
+      headers:
+        host: dp4.scproxy.top
+      path: /shirker

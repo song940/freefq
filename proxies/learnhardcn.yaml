@@ -1,0 +1,70 @@
+proxies:
+  - name: ''
+    type: ss
+    server: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVAMTMuMjEzLjQ2LjE5Njo0NDM=
+    port: ''
+    cipher: ''
+    udp: true
+  - name: ''
+    type: ss
+    server: YWVzLTI1Ni1jZmI6ZG91Yi5pb0A1NC4xOTkuODMuMjM5OjIzMzM=
+    port: ''
+    cipher: ''
+    udp: true
+  - name: ''
+    type: ss
+    server: YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMjUxLjE2OC4xNDM6NDQz
+    port: ''
+    cipher: ''
+    udp: true
+  - name: ''
+    type: ss
+    server: >-
+      Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZTk0OWQ3NS0zNTEwLTQ2NzgtODU5My0zYzUwMzJkZDkzMWFAd3FmdWlud3FmZnEuZGZjbG91ZC54eXo6MzA4MTg=
+    port: ''
+    cipher: ''
+    udp: true
+  - type: vmess
+    server: xt.ylks01.eu.org
+    port: 2095
+    uuid: b710770a-fdaf-41fb-bbe4-68a6c41e2605
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /blue
+  - type: vmess
+    server: aaaa.wxx.gay
+    port: 443
+    uuid: 8237ec34-143a-11ee-8019-000017022008
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /look
+  - type: vmess
+    server: 159.223.94.156
+    port: 80
+    uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /anti13.zingfast.vn
+  - type: vmess
+    server: hkd1.quickerlink.xyz
+    port: 443
+    uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /h6jr23x9h3lqiitg

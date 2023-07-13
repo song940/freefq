@@ -1,0 +1,246 @@
+proxies:
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: 199.188.111.49
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: www.62317155.xyz
+      headers:
+        host: www.62317155.xyz
+      path: /path/1689241126044
+  - type: vmess
+    name: 美国 惠普HP
+    server: hk2.c3bfe79372bi.sanfen006.xyz
+    port: '443'
+    uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: www.microsoft.com
+      headers:
+        host: www.microsoft.com
+      path: /zh-cn
+  - name: 亚太地区+V2CROSS.COM
+    type: trojan
+    server: 163.123.192.57
+    port: '443'
+    password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 新加坡+V2CROSS.COM
+    type: ss
+    server: 217.197.161.136
+    port: '807'
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+    udp: true
+  - type: vmess
+    name: 美国 加利福尼亚州圣何塞PEG TECH数据中心
+    server: 192.74.229.215
+    port: 51592
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 罗马尼亚 V2CROSS.COM
+    server: 37.120.193.102
+    port: 52920
+    uuid: 57170ff0-7180-4664-8f61-8debdda345f7
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cfcdn2.sanfencdn.net
+    port: 2052
+    uuid: 8216e1fd-7f67-440d-9a63-51d0f6c38b10
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: us6.sanfencdn2.com
+      headers:
+        host: us6.sanfencdn2.com
+      path: /zh-cn
+  - type: vmess
+    name: 南非 V2CROSS.COM
+    server: 156.225.67.207
+    port: 48123
+    uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      host: akile.tr.catscloud.top
+      headers:
+        host: akile.tr.catscloud.top
+      path: /isaifqaagpi
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: 104.31.16.28
+    port: '80'
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: ca4.tehme2.fun
+      headers:
+        host: ca4.tehme2.fun
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - type: vmess
+    name: 美国 Datability
+    server: 140.99.149.46
+    port: 53082
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cf-lt.sharecentre.online
+    port: '80'
+    uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: nl.sharecentrepro.com
+      headers:
+        host: nl.sharecentrepro.com
+      path: /shirker
+  - type: vmess
+    name: 南非豪登省约翰内斯堡 Cloudinnovation数据中心
+    server: 156.249.18.161
+    port: '42292'
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: 澳大利亚 悉尼
+    server: 203.23.104.190
+    port: 443
+    uuid: EF6EE694-3B07-4D0A-9955-043FD235F6D3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: Dusseldorf.kotick.site
+      headers:
+        host: Dusseldorf.kotick.site
+      path: /speedtest
+  - type: vmess
+    name: 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+    server: 107.167.29.37
+    port: 52303
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: frsadubibb.76898102.xyz
+    port: 2095
+    uuid: 6ab8886d-dcb5-30c7-8376-caa97ef36e2a
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: frsadubib.76898102.xyz
+      headers:
+        host: frsadubib.76898102.xyz
+      path: /funsdfrh
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: 38.26.135.2
+    port: 44942
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 美国 加利福尼亚州洛杉矶市SharkTech数据中心
+    server: 107.167.4.122
+    port: 46766
+    uuid: 9838c1b4-c3fd-49b5-8a59-2ff05385f17c
+    alterId: '64'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 江苏省 移动
+    server: 36.156.198.43
+    port: '30052'
+    uuid: 87d54579-a1eb-4875-b288-afe25f726228
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: 美国 Cloudinnovation数据中心
+    server: 154.85.1.4
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: '64'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: www.42077230.xyz
+      headers:
+        host: www.42077230.xyz
+      path: /path/1683881458407

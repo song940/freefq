@@ -1,0 +1,28 @@
+proxies:
+  - type: vmess
+    name: 🇺🇸 United States 01 @nodpai
+    server: hytron.io
+    port: '8080'
+    uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: hytron.io
+      headers:
+        host: hytron.io
+      path: /
+  - type: vmess
+    name: 🇬🇧 United Kingdom 01 @nodpai
+    server: 172.99.190.109
+    port: '443'
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: linkvws

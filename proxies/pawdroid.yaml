@@ -1,107 +1,91 @@
 proxies:
   - type: vmess
-    name: 美国 得克萨斯州
-    server: 34.150.33.254
-    port: '8443'
-    uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+    name: 台湾省新北市 中华电信
+    server: b23.ntbq.dynu.net
+    port: 2024
+    uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac
     alterId: '0'
     cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      host: dj.changding.tech
-      headers:
-        host: dj.changding.tech
-      path: /vm-tls1?ed=2048
-  - name: 美国+Amazon数据中心
-    type: ss
-    server: series-a2-me.samanehha.co
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-    udp: true
-  - type: vmess
-    name: 印度 V2CROSS.COM
-    server: 202.78.162.4
-    port: '80'
-    uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
-    alterId: '0'
-    cipher: auto
-    network: ws
+    network: tcp
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      host: mizban888.servecounterstrike.com
-      headers:
-        host: mizban888.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
+    tcp-opts:
+      path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: mehdi20.mehdimoghaddam.fun
-    port: 2086
-    uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
-    alterId: '0'
+    server: 104.21.32.215
+    port: 8880
+    uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      path: /@forwardv2ray
-  - type: vmess
-    name: 利比亚 V2CROSS.COM
-    server: 197.215.140.235
-    port: '80'
-    uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: sazgar.serveirc.com
+      host: a3.bcbot.in
       headers:
-        host: sazgar.serveirc.com
-      path: /@forwardv2ray
+        host: a3.bcbot.in
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.18.15.149
+    port: 80
+    uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: er3.889611.com
+      headers:
+        host: er3.889611.com
+      path: /
   - name: 法国+巴黎Amazon数据中心
     type: trojan
-    server: 15.188.180.124
+    server: 15.188.98.95
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
+  - name: 广东省广州市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '50001'
+    cipher: chacha20-ietf-poly1305
+    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+    udp: true
+  - name: 北京市+移动
+    type: ss
+    server: zhejiang.wandacloud.xyz
+    port: '32143'
+    cipher: chacha20-ietf-poly1305
+    password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
+    udp: true
+  - name: 广东省广州市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '20007'
+    cipher: chacha20-ietf-poly1305
+    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+    udp: true
   - type: vmess
     name: 美国 CloudFlare节点
-    server: muoaerbb.76898102.xyz
-    port: '2052'
-    uuid: e7663aaf-bf76-3b8d-8cd5-29791ec136f6
+    server: 172.67.217.144
+    port: '80'
+    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: muoaerb.76898102.xyz
+      host: lv1.xv2ray.net
       headers:
-        host: muoaerb.76898102.xyz
-      path: /aiufbwuge
+        host: lv1.xv2ray.net
+      path: /
   - name: 美国+Akamai科技公司CDN网络节点
     type: ss
     server: 172.232.129.44
@@ -109,22 +93,21 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: Di1cc1MFfYdc9aBOYW_W9A
     udp: true
-  - name: 广东省广州市+移动
-    type: ss
-    server: service.ouluyun9803.com
-    port: '20003'
-    cipher: chacha20-ietf-poly1305
-    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
-    udp: true
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.17.186.227
-    port: '443'
-    password: Mahanvpn
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: 146.190.111.121
+    port: 54642
+    uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
     skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    ws-opts:
+      host: www.xbox.com
+      headers:
+        host: www.xbox.com
+      path: /
   - type: vmess
     name: 美国 CloudFlare节点
     server: mehdi6.mehdimoghaddam.fun
@@ -137,10 +120,94 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /@forwardv2ray
-  - name: 广东省广州市+移动
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cfcdn1.sanfencdn9.com
+    port: 8880
+    uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: us6gzxQRrE4.fzbqfrse.xyz
+      headers:
+        host: us6gzxQRrE4.fzbqfrse.xyz
+      path: /video/bYdJ7Vc2We
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: mehdi20.mehdimoghaddam.fun
+    port: 2086
+    uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: 德国+V2CROSS.COM
+    type: trojan
+    server: 213.202.216.14
+    port: '443'
+    password: 02e2ac12-e4eb-4082-958f-9f007938bc44
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Amazon数据中心
     type: ss
-    server: service.ouluyun9803.com
-    port: '50001'
+    server: series-a2-me.samanehha.co
+    port: '443'
     cipher: chacha20-ietf-poly1305
-    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+    password: Bog0ELmMM9DSxDdQ
     udp: true
+  - name: 江苏省镇江市+移动
+    type: trojan
+    server: js-cn.jdyzyjd.xyz
+    port: '40214'
+    password: 72c433ae-7f01-4026-9291-25b0a66b7603
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Amazon数据中心
+    type: trojan
+    server: 18.169.5.11
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.17.2.183
+    port: 80
+    uuid: 3c59b3ca-def3-4d3a-9ef4-c32f797803a2
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: holloll32.adanademirspor.eu
+      headers:
+        host: holloll32.adanademirspor.eu
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: glasco.fx-trader.shop
+    port: '80'
+    uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: v3ra3do.wakeuptimerap.shop
+      headers:
+        host: v3ra3do.wakeuptimerap.shop
+      path: /

@@ -1,58 +1,54 @@
 proxies:
   - type: vmess
-    name: 德国 Hetzner
-    server: 116.203.60.6
-    port: '18180'
-    uuid: b1cfd141-4f0d-40b4-b169-ed332a4a92b9
+    name: 伊朗 V2CROSS.COM
+    server: 81.12.27.4
+    port: '20512'
+    uuid: 5d0b61a0-64fc-4a9f-e4bc-50ecdbc37623
     alterId: '0'
     cipher: auto
-    network: ws
+    network: tcp
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: mehdi18.mehdimoghaddam.fun
-    port: '8080'
-    uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: mehdi18.mehdimoghaddam.fun
-      headers:
-        host: mehdi18.mehdimoghaddam.fun
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: hamrah.asan5a.shop
-    port: 8080
-    uuid: 1eeb2eee-c8e4-43c7-846b-2d237c5079bc
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: sub.asan5a.shop
-      headers:
-        host: sub.asan5a.shop
-      path: /
-  - name: 美国+Amazon数据中心
+    tcp-opts: {}
+  - name: 美国+Amazon+EC2服务器
     type: trojan
-    server: 18.171.92.169
+    server: 3.74.254.208
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 法国+巴黎Amazon数据中心
+  - type: vmess
+    name: 台湾省台北市 中华电信
+    server: 36.226.137.36
+    port: 2024
+    uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - name: 爱尔兰+都柏林Amazon数据中心
     type: trojan
-    server: 15.188.99.91
+    server: 52.210.28.139
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+华盛顿Cogent通信公司
+    type: ss
+    server: 38.143.66.87
+    port: '9102'
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+    udp: true
+  - name: 爱尔兰+都柏林Amazon数据中心
+    type: trojan
+    server: 52.215.142.135
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
@@ -66,20 +62,9 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
     udp: true
-  - type: vmess
-    name: 台湾省台北市 中华电信
-    server: 36.226.137.36
-    port: 2024
-    uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - name: 美国+俄勒冈州波特兰Amazon数据中心
+  - name: 美国+Amazon+EC2服务器
     type: trojan
-    server: 44.228.36.149
+    server: 3.76.137.200
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true
@@ -88,65 +73,90 @@ proxies:
       - http/1.1
   - type: vmess
     name: 伊拉克 V2CROSS.COM
-    server: 91.108.240.202
-    port: 8080
-    uuid: cd3a05bd-4b70-45e5-aaf8-f1077c4fc4d3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - name: 美国+Amazon数据中心
-    type: trojan
-    server: 18.199.19.116
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: mehdi5.mehdimoghaddam.fun
-    port: '2096'
-    uuid: 1207c544-8199-45b8-befe-23fdd03630c0
+    server: 130.193.166.2
+    port: '443'
+    uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
     alterId: '0'
     cipher: auto
     network: ws
     tls: true
     skip-cert-verify: true
     ws-opts:
-      host: mehdi5.mehdimoghaddam.fun
+      host: irisoft.servecounterstrike.com
       headers:
-        host: mehdi5.mehdimoghaddam.fun
+        host: irisoft.servecounterstrike.com
       path: /@forwardv2ray
-  - name: 加拿大+魁北克省博阿努瓦OVH数据中心
-    type: trojan
-    server: ca1.test3.net
-    port: '443'
-    password: 14e4c020-b26f-11ee-b907-1239d0255272
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
-    name: 伊朗 V2CROSS.COM
-    server: 79.143.84.117
-    port: 25477
-    uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
-    alterId: 0
+    name: 乌克兰 V2CROSS.COM
+    server: 94.131.99.8
+    port: '47182'
+    uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
+    alterId: '0'
     cipher: auto
     network: tcp
     tls: false
     skip-cert-verify: true
     tcp-opts: {}
-  - name: 美国+Xerox
-    type: trojan
-    server: 13.51.81.42
-    port: '22222'
-    password: telegram-id-privatevpns
+  - type: vmess
+    name: 奥地利 V2CROSS.COM
+    server: cfmmc.nic.1241241241.com
+    port: 2052
+    uuid: b349ae13-02d2-44ba-d2e0-ac7970458ce3
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
     skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    ws-opts:
+      host: sg001.realv2ray.tech
+      headers:
+        host: sg001.realv2ray.tech
+      path: /123123
+  - type: vmess
+    name: 利比亚 V2CROSS.COM
+    server: 197.215.140.234
+    port: 80
+    uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: softiri.serveirc.com
+      headers:
+        host: softiri.serveirc.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: kz-v2ray.ipracevpn.com
+    port: 8443
+    uuid: 48b10b02-2c60-4323-bc65-a11b15144745
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: true
+    skip-cert-verify: true
+    tcp-opts: {}
+  - name: 广东省广州市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '21003'
+    cipher: chacha20-ietf-poly1305
+    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+    udp: true
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cfcdn3.sanfencdn9.com
+    port: 80
+    uuid: a7d5e71f-3905-42be-8115-bbc1844eb833
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: 6Sn8mFtTjp3.yofnhkfc.xyz
+      headers:
+        host: 6Sn8mFtTjp3.yofnhkfc.xyz
+      path: /video/X37qXHip

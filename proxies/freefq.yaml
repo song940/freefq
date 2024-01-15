@@ -1,6 +1,6 @@
 proxies:
   - type: vmess
-    name: 更新于:01-15 16:00 -by BuLink.xyz- 以下节点不计流量
+    name: 更新于:01-15 20:00 -by BuLink.xyz- 以下节点不计流量
     server: 使用前记得更新订阅
     port: '0'
     uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
@@ -10,46 +10,54 @@ proxies:
     tls: false
     skip-cert-verify: true
     tcp-opts: {}
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 1
-    server: 104.21.20.16
-    port: '443'
-    uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    sni: se2-vmess.sshmax.xyz
-    ws-opts:
-      host: se2-vmess.sshmax.xyz
-      headers:
-        host: se2-vmess.sshmax.xyz
-      path: /vmess
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 2
-    server: 104.21.20.16
-    port: 80
-    uuid: c9e99213-170b-458a-b45b-79454ac7cf4b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: fi2-vmess.sshmax.xyz
-      headers:
-        host: fi2-vmess.sshmax.xyz
-      path: /vmess
-  - name: github.com/freefq - 美国Amazon数据中心 3
+  - name: github.com/freefq - 美国Amazon数据中心 1
     type: ss
     server: series-a2-mec.samanehha.co
     port: '443'
     cipher: chacha20-ietf-poly1305
     password: u17T3BvpYaaiuW2c
     udp: true
+  - name: github.com/freefq - 香港Microsoft公司 2
+    type: trojan
+    server: in.liangyuandiancloud.com
+    port: '443'
+    password: 9fa3d65b-bda6-4b9d-8122-cd32e0c5ba82
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: github.com/freefq - 德国  3
+    server: 92.223.124.28
+    port: '80'
+    uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: best.servecounterstrike.com
+      headers:
+        host: best.servecounterstrike.com
+      path: /@forwardv2ray
   - type: vmess
     name: github.com/freefq - 美国CloudFlare公司CDN节点 4
+    server: hamrahaval.asan3a.shop
+    port: '8080'
+    uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: asan3.azad2.tech
+      headers:
+        host: asan3.azad2.tech
+      path: /
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 5
     server: cfcdn3.sanfencdn9.com
     port: 2052
     uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
@@ -64,44 +72,22 @@ proxies:
         host: wtywwcrzjp5.yofnhkfc.xyz
       path: /video/9TfVEyku
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 5
-    server: hamrahaval.asan3a.shop
-    port: '8080'
-    uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: asan3.azad2.tech
-      headers:
-        host: asan3.azad2.tech
-      path: /
-  - name: github.com/freefq - 俄罗斯  6
-    type: ss
-    server: 109.107.175.249
-    port: '1165'
-    cipher: chacha20-ietf-poly1305
-    password: ZXywpfZ8LvLePtYf14Xfjg
-    udp: true
-  - type: vmess
-    name: github.com/freefq - 瑞典  7
-    server: ap-northeast-anycast.lnaspiring.com
+    name: github.com/freefq - 巴西圣保罗CloudFlare节点 6
+    server: 188.114.97.1
     port: 80
-    uuid: c64fa146-e851-4dfa-8f90-59a8fee49bc3
+    uuid: 3f74cb04-65d4-4d7f-90e0-ef7d29c30304
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: jpli.edge.233.tw
+      host: combat-disappointed-nine-inc.trycloudflare.com
       headers:
-        host: jpli.edge.233.tw
-      path: /geg/45?ed=2048
+        host: combat-disappointed-nine-inc.trycloudflare.com
+      path: 1138a55af46e?ed=2048
   - type: vmess
-    name: github.com/freefq - 美国  8
+    name: github.com/freefq - 美国  7
     server: 146.190.89.218
     port: '2023'
     uuid: 45b2d123-3246-4e55-a0d7-506cd14d1c54
@@ -116,22 +102,22 @@ proxies:
         host: imo.im
       path: /
   - type: vmess
-    name: github.com/freefq - 乌克兰  9
-    server: 185.158.211.186
+    name: github.com/freefq - 巴勒斯坦  8
+    server: 82.213.5.50
     port: '80'
-    uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+    uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: irisoft.servecounterstrike.com
+      host: best.servecounterstrike.com
       headers:
-        host: irisoft.servecounterstrike.com
+        host: best.servecounterstrike.com
       path: /@forwardv2ray
   - type: vmess
-    name: github.com/freefq - 广东省移动 10
+    name: github.com/freefq - 广东省移动 9
     server: data-us-v1.shwjfkw.cn
     port: '20401'
     uuid: b1478e24-4916-3abe-8f17-15931012ecbe
@@ -145,26 +131,8 @@ proxies:
       headers:
         host: data-us-v1.shwjfkw.cn
       path: /debian
-  - name: github.com/freefq - 广东省广州市移动 11
-    type: ss
-    server: service.ouluyun9803.com
-    port: '21003'
-    cipher: chacha20-ietf-poly1305
-    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
-    udp: true
   - type: vmess
-    name: github.com/freefq - 台湾省花莲县中华电信 12
-    server: b23.ntbq.dynu.net
-    port: 2024
-    uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: github.com/freefq - 乌克兰  13
+    name: github.com/freefq - 乌克兰  10
     server: cz1-vmess.sshmax.xyz
     port: 80
     uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
@@ -180,7 +148,98 @@ proxies:
         host: cz1-vmess.sshmax.xyz
       path: /vmess
   - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 11
+    server: glasco.fx-trader.shop
+    port: 80
+    uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: v3ra3do.wakeuptimerap.shop
+      headers:
+        host: v3ra3do.wakeuptimerap.shop
+      path: /
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 12
+    server: 104.21.20.16
+    port: 80
+    uuid: c9e99213-170b-458a-b45b-79454ac7cf4b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: fi2-vmess.sshmax.xyz
+      headers:
+        host: fi2-vmess.sshmax.xyz
+      path: /vmess
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 13
+    server: 104.21.20.16
+    port: '443'
+    uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    sni: se2-vmess.sshmax.xyz
+    ws-opts:
+      host: se2-vmess.sshmax.xyz
+      headers:
+        host: se2-vmess.sshmax.xyz
+      path: /vmess
+  - type: vmess
     name: github.com/freefq - 美国CloudFlare公司CDN节点 14
+    server: 104.18.15.150
+    port: '80'
+    uuid: 109f8d4a-c66d-4980-bf84-ce286d7321f8
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: us3.889611.com
+      headers:
+        host: us3.889611.com
+      path: /
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 15
+    server: glaSco.fx-trAder.shop
+    port: 80
+    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: vvv2vayo2.everythingisreve.shop
+      headers:
+        host: vvv2vayo2.everythingisreve.shop
+      path: /
+  - type: vmess
+    name: github.com/freefq - 乌克兰  16
+    server: 185.158.211.186
+    port: '80'
+    uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: sazgar.serveirc.com
+      headers:
+        host: sazgar.serveirc.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 17
     server: 104.21.79.143
     port: '80'
     uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
@@ -194,3 +253,10 @@ proxies:
       headers:
         host: periodically-microwave-firms-abc.trycloudflare.com
       path: ae8e857abf1d?ed=2048
+  - name: github.com/freefq - 广东省广州市移动 18
+    type: ss
+    server: service.ouluyun9803.com
+    port: '26667'
+    cipher: chacha20-ietf-poly1305
+    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+    udp: true

@@ -80,13 +80,15 @@ mode: Rule
 
 rule-providers:
   direct:
-    type: file
+    type: http
     behavior: classical
     path: rules/direct.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/direct.yaml
     interval: 86400
 
   reject:
-    type: file
+    type: http
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/block.yaml
     behavior: classical
     path: rules/block.yaml
     interval: 86400
@@ -141,75 +143,86 @@ rule-providers:
     interval: 86400
 
   github:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/github.yaml
     path: rules/github.yaml
     interval: 86400
 
   reddit:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/reddit.yaml
     path: rules/reddit.yaml
     interval: 86400
 
   discord:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/discord.yaml
     path: rules/discord.yaml
     interval: 86400
 
   stackoverflow:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/stackoverflow.yaml
     path: rules/stackoverflow.yaml
     interval: 86400
 
   facebook:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/facebook.yaml
     path: rules/facebook.yaml
     interval: 86400
 
   wikipedia:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/wikipedia.yaml
     path: rules/wikipedia.yaml
     interval: 86400
 
   tiktok:
-    type: file
+    type: http
     behavior: classical
     path: rules/tiktok.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/tiktok.yaml
     interval: 86400
 
   yahoo:
-    type: file
+    type: http
     behavior: classical
     path: rules/yahoo.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/yahoo.yaml
     interval: 86400
 
   telegram:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/telegram.yaml
     path: rules/telegram.yaml
     interval: 86400
 
   porn:
-    type: file
+    type: http
     behavior: classical
     path: rules/porn.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/porn.yaml
     interval: 86400
 
   clubhouse:
-    type: file
+    type: http
     behavior: classical
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/clubhouse.yaml
     path: rules/clubhouse.yaml
     interval: 86400
 
   proxy:
-    type: file
+    type: http
     behavior: classical
-    # url: https://rawgit.lsong.org/song940/freefq/clash/rules/proxy.yaml
+    url: https://rawgit.lsong.org/song940/freefq/master/rules/proxy.yaml
     path: rules/proxy.yaml
     interval: 86400
 

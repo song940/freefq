@@ -2,7 +2,7 @@ proxies:
   - type: vmess
     name: 美国 CloudFlare节点
     server: cfcdn3.sanfencdn9.com
-    port: '2052'
+    port: 2052
     uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
     alterId: 0
     cipher: auto
@@ -16,45 +16,6 @@ proxies:
       path: /video/9TfVEyku
   - type: vmess
     name: 美国 CloudFlare节点
-    server: hamshahri25.goodbyefilteringchannel.space
-    port: 2082
-    uuid: 042efc0f-4623-4a52-8195-24077f05b885
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.17.2.183
-    port: 80
-    uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: v3ra3do.wakeuptimerap.shop
-      headers:
-        host: v3ra3do.wakeuptimerap.shop
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: tabnak13.goodbyefilteringchannel.space
-    port: 2052
-    uuid: dd12378c-3199-440c-877c-e07d7a10ceb9
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
     server: tabnak11.goodbyefilteringchannel.space
     port: 2052
     uuid: dd12378c-3199-440c-877c-e07d7a10ceb9
@@ -66,77 +27,8 @@ proxies:
     ws-opts:
       path: /@forwardv2ray
   - type: vmess
-    name: 美国 CloudFlare节点
-    server: hamshahri21.goodbyefilteringchannel.space
-    port: 8080
-    uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: tabnak19.goodbyefilteringchannel.space
-    port: 8080
-    uuid: 541ed817-36bd-49ab-9e9f-0c03c3b2faf9
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /@forwardv2ray
-  - type: vmess
-    name: 欧盟 V2CROSS.COM
-    server: 45.89.63.152
-    port: 10000
-    uuid: ddfcd176-b037-11ee-b844-bbc0fc2fe2b6
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: 45.89.63.152
-      headers:
-        host: 45.89.63.152
-      path: /vpnjantit
-  - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.18.202.232
-    port: '80'
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: ca4.tehme2.fun
-      headers:
-        host: ca4.tehme2.fun
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - type: vmess
-    name: 印度 V2CROSS.COM
-    server: 202.78.162.6
+    name: 哈萨克斯坦 V2CROSS.COM
+    server: 92.46.108.106
     port: 80
     uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
     alterId: '0'
@@ -150,80 +42,136 @@ proxies:
         host: irisoft.servecounterstrike.com
       path: /@forwardv2ray
   - type: vmess
-    name: 保加利亚 V2CROSS.COM
-    server: 93.123.17.143
-    port: 80
-    uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: best.servecounterstrike.com
-      headers:
-        host: best.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.17.30.111
-    port: 8080
-    uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: asan3.azad2.tech
-      headers:
-        host: asan3.azad2.tech
-      path: /
-  - type: vmess
-    name: 格鲁吉亚 V2CROSS.COM
-    server: 94.43.206.202
-    port: 80
-    uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: mizban888.servecounterstrike.com
-      headers:
-        host: mizban888.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.20.16
-    port: 443
-    uuid: 802c1068-ee2b-4c87-b49d-e7f3043e75d2
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      host: se2-vmess.sshmax.xyz
-      headers:
-        host: se2-vmess.sshmax.xyz
-      path: /vmess
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.79.143
+    name: 利比亚 V2CROSS.COM
+    server: 197.215.140.234
     port: '80'
-    uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
+    uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: periodically-microwave-firms-abc.trycloudflare.com
+      host: softiri.serveirc.com
       headers:
-        host: periodically-microwave-firms-abc.trycloudflare.com
-      path: ae8e857abf1d?ed=2048
+        host: softiri.serveirc.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: tabnak18.goodbyefilteringchannel.space
+    port: 2095
+    uuid: c42b9f08-3a67-4235-8350-f63543a2d8b8
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: tabnak20.goodbyefilteringchannel.space
+    port: '2082'
+    uuid: 042efc0f-4623-4a52-8195-24077f05b885
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: hamshahri25.goodbyefilteringchannel.space
+    port: 2082
+    uuid: 042efc0f-4623-4a52-8195-24077f05b885
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - type: vmess
+    name: 印度 V2CROSS.COM
+    server: 202.78.162.6
+    port: '80'
+    uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: irisoft.servecounterstrike.com
+      headers:
+        host: irisoft.servecounterstrike.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: tabnak17.goodbyefilteringchannel.space
+    port: '8880'
+    uuid: 7903b32d-702a-4c0a-93ea-2961b2e20775
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: tabnak13.goodbyefilteringchannel.space
+    port: 2052
+    uuid: dd12378c-3199-440c-877c-e07d7a10ceb9
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: 英国+伦敦Microsoft公司
+    type: ss
+    server: 51.142.158.58
+    port: '63072'
+    cipher: chacha20-ietf-poly1305
+    password: 2qgjrMVVbwYdNd3FtvttsL
+    udp: true
+  - type: vmess
+    name: 乌克兰 V2CROSS.COM
+    server: 185.158.211.186
+    port: '80'
+    uuid: ecba5b33-f768-4d8a-b004-b29e8e5c676f
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: sazgar.serveirc.com
+      headers:
+        host: sazgar.serveirc.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: tabnak13.goodbyefilteringchannel.space
+    port: 2086
+    uuid: 5e0e8607-342d-49eb-98e5-b7cedaeed06f
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+  - name: 法国+OVH+SAS
+    type: ss
+    server: 217.182.198.219
+    port: '3389'
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    udp: true
   - type: vmess
     name: 美国 CloudFlare节点
     server: cfcdn2.sanfencdn9.com
@@ -239,32 +187,25 @@ proxies:
       headers:
         host: yvhnbevxhk1.yofnhkfc.xyz
       path: /video/34kKXbLM
+  - name: 爱尔兰+都柏林Amazon数据中心
+    type: trojan
+    server: 54.228.244.31
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
-    name: 土耳其 V2CROSS.COM
-    server: 78.111.103.5
-    port: 80
-    uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
+    name: 乌克兰 V2CROSS.COM
+    server: cz1-vmess.sshmax.xyz
+    port: '80'
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      host: irisoft.servecounterstrike.com
-      headers:
-        host: irisoft.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: cz1-vmess.sshmax.xyz
-    port: 80
-    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    sni: cz1-vmess.sshmax.xyz
     ws-opts:
       host: cz1-vmess.sshmax.xyz
       headers:
@@ -272,10 +213,10 @@ proxies:
       path: /vmess
   - type: vmess
     name: 美国 CloudFlare节点
-    server: tabnak18.goodbyefilteringchannel.space
-    port: 2052
-    uuid: dd12378c-3199-440c-877c-e07d7a10ceb9
-    alterId: '0'
+    server: hamshahri23.goodbyefilteringchannel.space
+    port: '2082'
+    uuid: 042efc0f-4623-4a52-8195-24077f05b885
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
@@ -284,28 +225,16 @@ proxies:
       path: /@forwardv2ray
   - type: vmess
     name: 美国 CloudFlare节点
-    server: glaSco.fx-trAder.shop
-    port: 80
-    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: vvv2vayo2.everythingisreve.shop
-      headers:
-        host: vvv2vayo2.everythingisreve.shop
-      path: /
-  - type: vmess
-    name: 法国 鲁贝OVH数据中心
-    server: 51.75.170.141
-    port: 10000
-    uuid: d86d8aac-b037-11ee-ad74-63ccc3c46a17
+    server: 104.21.79.143
+    port: '80'
+    uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      path: /vpnjantit
+      host: periodically-microwave-firms-abc.trycloudflare.com
+      headers:
+        host: periodically-microwave-firms-abc.trycloudflare.com
+      path: ae8e857abf1d?ed=2048

@@ -1,121 +1,26 @@
 proxies:
-  - name: 北美地区+V2CROSS.COM
-    type: trojan
-    server: 23.142.200.175
-    port: '443'
-    password: 27876_t7d7f4e3f
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 广东省广州市+移动
-    type: ss
-    server: service.ouluyun9803.com
-    port: '26601'
-    cipher: chacha20-ietf-poly1305
-    password: 451a39bb-fc9c-4ef7-b0ef-19de25d9279a
-    udp: true
   - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - name: 广东省广州市+移动
-    type: ss
-    server: service.ouluyun9803.com
-    port: '20003'
-    cipher: chacha20-ietf-poly1305
-    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
-    udp: true
-  - name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-    type: ss
-    server: series-a2-me.samanehha.co
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-    udp: true
-  - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    name: 美国 CloudFlare节点
+    server: 104.21.79.143
+    port: '80'
+    uuid: 8b745f74-c322-48c0-b27c-cb6a1d871e86
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: data-us-v1.shwjfkw.cn
+      host: periodically-microwave-firms-abc.trycloudflare.com
       headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: glasco.fx-trader.shop
-    port: 80
-    uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: v3ra3do.wakeuptimerap.shop
-      headers:
-        host: v3ra3do.wakeuptimerap.shop
-      path: /
-  - name: 美国+Amazon数据中心
-    type: trojan
-    server: 13.43.247.55
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 台湾省 中华电信(HiNet)数据中心
-    server: nb22.ntbq.dynu.net
-    port: '12002'
-    uuid: 14327f86-7734-4d5b-9561-b58ad95cbcfb
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - name: 广东省深圳市+电信
+        host: periodically-microwave-firms-abc.trycloudflare.com
+      path: ae8e857abf1d?ed=2048
+  - name: 广东省广州市+移动
     type: ss
-    server: 14.116.159.70
-    port: '44443'
-    cipher: aes-256-gcm
-    password: bbcb50ac-ea99-4e07-9e5b-dc0170b3f54e
+    server: service.ouluyun9803.com
+    port: '20007'
+    cipher: chacha20-ietf-poly1305
+    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
     udp: true
-  - type: vmess
-    name: 欧盟 V2CROSS.COM
-    server: 45.89.63.152
-    port: 10000
-    uuid: ddfcd176-b037-11ee-b844-bbc0fc2fe2b6
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: 45.89.63.152
-      headers:
-        host: 45.89.63.152
-      path: /vpnjantit
   - type: vmess
     name: 利比亚 V2CROSS.COM
     server: 197.215.140.234
@@ -131,18 +36,140 @@ proxies:
       headers:
         host: softiri.serveirc.com
       path: /@forwardv2ray
+  - name: 广东省广州市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '21003'
+    cipher: chacha20-ietf-poly1305
+    password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
+    udp: true
+  - type: vmess
+    name: 广东省 移动
+    server: data-us-v1.shwjfkw.cn
+    port: '20401'
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: data-us-v1.shwjfkw.cn
+      headers:
+        host: data-us-v1.shwjfkw.cn
+      path: /debian
+  - type: vmess
+    name: 台湾省 中华电信(HiNet)数据中心
+    server: nb22.ntbq.dynu.net
+    port: 12002
+    uuid: 35916fe2-8dbe-4a8c-870c-123edabcb414
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: cfcdn1.sanfencdn9.com
-    port: '2086'
-    uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
+    server: glasco.fx-trader.shop
+    port: '80'
+    uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: v3ra3do.wakeuptimerap.shop
+      headers:
+        host: v3ra3do.wakeuptimerap.shop
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.18.202.232
+    port: 80
+    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: ca4.tehme2.fun
+      headers:
+        host: ca4.tehme2.fun
+      path: /IOebhLMhl1CTbFHbL95myfRX2
+  - type: vmess
+    name: 利比亚 V2CROSS.COM
+    server: 197.215.140.234
+    port: '80'
+    uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: softiri.serveirc.com
+      headers:
+        host: softiri.serveirc.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: glaSco.fx-trAder.shop
+    port: 80
+    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: us77SmSk86j.fzbqfrse.xyz
+      host: vvv2vayo2.everythingisreve.shop
       headers:
-        host: us77SmSk86j.fzbqfrse.xyz
-      path: /video/Z7qdcrAGRw
+        host: vvv2vayo2.everythingisreve.shop
+      path: /
+  - type: vmess
+    name: 欧盟 V2CROSS.COM
+    server: 45.89.63.152
+    port: 10000
+    uuid: ddfcd176-b037-11ee-b844-bbc0fc2fe2b6
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: 45.89.63.152
+      headers:
+        host: 45.89.63.152
+      path: /vpnjantit
+  - type: vmess
+    name: 伊朗 V2CROSS.COM
+    server: 79.143.84.117
+    port: '25477'
+    uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - type: vmess
+    name: 乌克兰 V2CROSS.COM
+    server: cz1-vmess.sshmax.xyz
+    port: 80
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    sni: cz1-vmess.sshmax.xyz
+    ws-opts:
+      host: cz1-vmess.sshmax.xyz
+      headers:
+        host: cz1-vmess.sshmax.xyz
+      path: /vmess

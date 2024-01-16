@@ -1,25 +1,25 @@
 proxies:
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 162.159.200.5
+    server: cfcdn2.yuzhoucloud003.xyz
     port: 80
-    uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
+    uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: hk3.889611.com
+      host: cghyxmvhjp3.zvhdeaof.xyz
       headers:
-        host: hk3.889611.com
-      path: /
+        host: cghyxmvhjp3.zvhdeaof.xyz
+      path: /video/fz2DANLn
   - type: vmess
     name: 美国 CloudFlare节点
     server: cfcdn2.yuzhoucloud003.xyz
     port: 2052
     uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
-    alterId: 0
+    alterId: '0'
     cipher: auto
     network: ws
     tls: false
@@ -29,25 +29,19 @@ proxies:
       headers:
         host: dwlwfykrjp1.zvhdeaof.xyz
       path: /video/NgeVbib3
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: glaSco.fx-trAder.shop
-    port: 80
-    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 173.245.58.34
+    port: '2096'
+    password: DUvWfvC7xH
     skip-cert-verify: true
-    ws-opts:
-      host: vvv2vayo2.everythingisreve.shop
-      headers:
-        host: vvv2vayo2.everythingisreve.shop
-      path: /
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
     server: adenc35.fixedlfoat.top
-    port: 443
+    port: '443'
     uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
     alterId: '0'
     cipher: auto
@@ -61,99 +55,7 @@ proxies:
       path: /linkws
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.18.15.147
-    port: '80'
-    uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: us3.889611.com
-      headers:
-        host: us3.889611.com
-      path: /
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.18.213.21
-    port: '2096'
-    password: DUvWfvC7xH
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 日本+V2CROSS.COM
-    type: ss
-    server: 45.120.178.81
-    port: '37155'
-    cipher: chacha20-ietf-poly1305
-    password: l29yzOLryffJR9oJC3xBTA
-    udp: true
-  - type: vmess
-    name: 香港 Amazon数据中心
-    server: ap-northeast-anycast.lnaspiring.com
-    port: 80
-    uuid: a0b63317-33b5-4197-8ea0-f11e96d19767
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: jpli.edge.233.tw
-      headers:
-        host: jpli.edge.233.tw
-      path: /geg/45?ed=2048
-  - name: 美国+Amazon数据中心
-    type: trojan
-    server: 13.43.227.143
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cfcdn3.sanfencdn9.com
-    port: 80
-    uuid: dab86579-d197-431b-8e72-3d8a75968040
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: oA5FSz9Tjp1.yofnhkfc.xyz
-      headers:
-        host: oA5FSz9Tjp1.yofnhkfc.xyz
-      path: /video/P7EExoE2
-  - name: 台湾省台北市+中华电信
-    type: ss
-    server: 114.45.78.88
-    port: '4303'
-    cipher: chacha20-ietf-poly1305
-    password: 2e2a2655-0ac1-4b1d-a777-de98bea4aa0a
-    udp: true
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.18.202.232
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: ca4.tehme2.fun
-      headers:
-        host: ca4.tehme2.fun
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: glasco.fx-trader.shop
+    server: 104.17.2.183
     port: 80
     uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
     alterId: 0
@@ -166,96 +68,103 @@ proxies:
       headers:
         host: v3ra3do.wakeuptimerap.shop
       path: /
-  - type: vmess
-    name: 格鲁吉亚 V2CROSS.COM
-    server: 94.43.206.202
-    port: '80'
-    uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: best.servecounterstrike.com
-      headers:
-        host: best.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 162.159.200.3
-    port: '80'
-    uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: ca3.889611.com
-      headers:
-        host: ca3.889611.com
-      path: /
-  - name: 澳大利亚+V2CROSS.COM
+  - name: 美国+CloudFlare节点
     type: trojan
-    server: 192.65.217.200
+    server: 104.20.16.40
     port: '443'
-    password: b59ee60f-9fa4-4770-b6a7-288620147f60
+    password: da6aed6a-767d-4049-b801-85c38ab0d797
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Microsoft公司
+    type: ss
+    server: 13.87.82.188
+    port: '49603'
+    cipher: chacha20-ietf-poly1305
+    password: sdXEwtFoS5cAhg1ZBZqRBQ
+    udp: true
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.20.219.67
+    port: '2096'
+    password: DUvWfvC7xH
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
   - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: 94.131.8.32
-    port: 80
-    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+    name: 广东省 移动
+    server: data-us-v1.shwjfkw.cn
+    port: '20401'
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
+      host: data-us-v1.shwjfkw.cn
+      headers:
+        host: data-us-v1.shwjfkw.cn
+      path: /debian
+  - type: vmess
+    name: 乌克兰 V2CROSS.COM
+    server: cz1-vmess.sshmax.xyz
+    port: '80'
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cz1-vmess.sshmax.xyz
+      headers:
+        host: cz1-vmess.sshmax.xyz
       path: /vmess
   - type: vmess
-    name: 巴基斯坦 V2CROSS.COM
-    server: vn.xpro.5gdatavip.dichvutop1.pro.vn
-    port: 80
-    uuid: e20c501a-ccc0-47cc-b38a-91684f842dd1
+    name: 美国 V2CROSS.COM
+    server: 172.99.190.109
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      path: linkvws
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cfcdn3.sanfencdn9.com
+    port: '80'
+    uuid: dab86579-d197-431b-8e72-3d8a75968040
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      path: /5gdatavipDVTop1
-  - type: vmess
-    name: 印度 V2CROSS.COM
-    server: 202.78.162.6
-    port: '80'
-    uuid: 66fef53b-1b57-466d-89a4-bd99b90f6473
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: irisoft.servecounterstrike.com
+      host: oA5FSz9Tjp1.yofnhkfc.xyz
       headers:
-        host: irisoft.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 162.159.200.6
-    port: '80'
-    uuid: 351b931c-16b5-40ef-8846-269c3a43c5c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
+        host: oA5FSz9Tjp1.yofnhkfc.xyz
+      path: /video/P7EExoE2
+  - name: 美国+Amazon+EC2服务器
+    type: trojan
+    server: 3.74.143.222
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
-    ws-opts:
-      host: er3.889611.com
-      headers:
-        host: er3.889611.com
-      path: /
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.18.203.232
+    port: '2083'
+    password: ttkpZx1rIAFfVmFFFeqIuA
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1

@@ -1,126 +1,121 @@
 proxies:
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: glasco.fx-trader.shop
-    port: '80'
-    uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: v3ra3do.wakeuptimerap.shop
-      headers:
-        host: v3ra3do.wakeuptimerap.shop
-      path: /
-  - name: 巴西圣保罗+CloudFlare节点
+  - name: 北美地区+V2CROSS.COM
     type: trojan
-    server: 188.114.98.0
+    server: 23.142.200.175
     port: '443'
-    password: 01596265-168b-46a7-bcb7-25662c7a9546
+    password: 27876_t7d7f4e3f
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 广东省东莞市寮步镇+移动/数据中心
-    type: ss
-    server: any.hmbiplc-02.com
-    port: '49475'
-    cipher: aes-128-gcm
-    password: c013ca2a60494f5da25fc030aace0b55
-    udp: true
-  - name: 广东省+移动
-    type: ss
-    server: 183.240.222.220
-    port: '19591'
-    cipher: chacha20-ietf-poly1305
-    password: 468af944-de22-4fc5-b802-033a6c264d9d
-    udp: true
-  - type: vmess
-    name: 格鲁吉亚 V2CROSS.COM
-    server: 94.43.206.202
-    port: '80'
-    uuid: 368ee843-d2a3-425c-be57-135b9ec6b81f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
+  - name: 美国+惠普HP
+    type: trojan
+    server: 16.170.192.205
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
-    ws-opts:
-      host: best.servecounterstrike.com
-      headers:
-        host: best.servecounterstrike.com
-      path: /@forwardv2ray
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+华盛顿Cogent通信公司
+    type: ss
+    server: 38.143.66.244
+    port: '7307'
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+    udp: true
   - name: 广东省中山市+广东移动中山市分公司
     type: ss
     server: 218.204.179.126
-    port: '19511'
+    port: '19541'
     cipher: chacha20-ietf-poly1305
     password: 468af944-de22-4fc5-b802-033a6c264d9d
     udp: true
   - name: 美国+CloudFlare节点
     type: trojan
-    server: 173.245.58.34
+    server: 104.18.213.21
     port: '2096'
     password: DUvWfvC7xH
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 广东省+移动
+  - name: 美国+俄勒冈州波特兰Amazon数据中心
+    type: trojan
+    server: 54.213.46.0
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
     type: ss
-    server: 183.240.222.224
-    port: '19561'
+    server: series-a2-mec.samanehha.co
+    port: '443'
     cipher: chacha20-ietf-poly1305
-    password: 468af944-de22-4fc5-b802-033a6c264d9d
+    password: u17T3BvpYaaiuW2c
     udp: true
-  - type: vmess
-    name: 北美地区 V2CROSS.COM
-    server: 104.224.52.104
-    port: '38632'
-    uuid: 4bd467aa-ae27-43cc-b1fa-6666d54b0666
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
+  - name: 美国+加利福尼亚州洛杉矶Level3通信(DIA)
+    type: trojan
+    server: vpnhat.liangyuandiancloud.com
+    port: '443'
+    password: 17cae44f-1b58-4407-bb31-8273b7a51ff2
     skip-cert-verify: true
-    sni: testray1.zanylee.uk
-    ws-opts:
-      host: testray1.zanylee.uk
-      headers:
-        host: testray1.zanylee.uk
-      path: /4jPzm2QK/
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Akamai科技公司CDN网络节点
+    type: trojan
+    server: 172.232.193.67
+    port: '443'
+    password: 3d442d21-4351-49b3-ab82-1107ec28124e
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 北美地区+V2CROSS.COM
+    type: trojan
+    server: los16.ttddd.xyz
+    port: '443'
+    password: 27876_t7d7f4e3f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
-    name: 韩国 首尔Amazon数据中心
-    server: kr3.36routes.online
-    port: 80
-    uuid: cacaa61c-638d-41ed-94ed-99aa2b991ecf
+    name: 美国 CloudFlare节点
+    server: cfcdn3.sanfencdn9.com
+    port: 2052
+    uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: kr3.36routes.online
+      host: wtywwcrzjp5.yofnhkfc.xyz
       headers:
-        host: kr3.36routes.online
-      path: /
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: cz1-vmess.sshmax.xyz
-    port: '80'
-    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
+        host: wtywwcrzjp5.yofnhkfc.xyz
+      path: /video/9TfVEyku
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.21.69.44
+    port: '443'
+    password: Nu5EqwcJ2OCuvKAcSQeGdg
     skip-cert-verify: true
-    ws-opts:
-      host: cz1-vmess.sshmax.xyz
-      headers:
-        host: cz1-vmess.sshmax.xyz
-      path: /vmess
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.20.219.67
+    port: '2096'
+    password: DUvWfvC7xH
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 广东省 移动
     server: data-us-v1.shwjfkw.cn
@@ -136,58 +131,3 @@ proxies:
       headers:
         host: data-us-v1.shwjfkw.cn
       path: /debian
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cfcdn2.sanfencdn9.com
-    port: '2052'
-    uuid: cd2e0bc7-b25d-4a99-b8d6-a80570db994a
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: yvhnbevxhk1.yofnhkfc.xyz
-      headers:
-        host: yvhnbevxhk1.yofnhkfc.xyz
-      path: /video/34kKXbLM
-  - name: 英国+V2CROSS.COM
-    type: ss
-    server: 145.239.6.202
-    port: '4444'
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-    udp: true
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.18.202.232
-    port: '2083'
-    password: ttkpZx1rIAFfVmFFFeqIuA
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 法国+巴黎Amazon数据中心
-    type: trojan
-    server: 52.47.54.110
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 Merit网络公司
-    server: us3.36routes.online
-    port: 80
-    uuid: cacaa61c-638d-41ed-94ed-99aa2b991ecf
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: us3.36routes.online
-      headers:
-        host: us3.36routes.online
-      path: /

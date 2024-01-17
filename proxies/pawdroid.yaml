@@ -1,37 +1,40 @@
 proxies:
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: world17.freedomisnear.fun
-    port: '2095'
-    uuid: eebad79d-5eca-47bf-bfa9-f8f3e2143eb3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 173.245.58.34
+    port: '2096'
+    password: DUvWfvC7xH
     skip-cert-verify: true
-    ws-opts:
-      path: /@forwardv2ray
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Amazon数据中心
+    type: ss
+    server: series-a2.samanehha.co
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
   - type: vmess
-    name: 美国 CloudFlare节点
-    server: cfcdn3.sanfencdn9.com
-    port: 80
-    uuid: dab86579-d197-431b-8e72-3d8a75968040
+    name: 越南 V2CROSS.COM
+    server: 42.96.3.223
+    port: '80'
+    uuid: f2d51ddb-1dea-414d-b179-3880e7a60ad6
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: oA5FSz9Tjp1.yofnhkfc.xyz
+      host: lienquan.garena.vn
       headers:
-        host: oA5FSz9Tjp1.yofnhkfc.xyz
-      path: /video/P7EExoE2
+        host: lienquan.garena.vn
   - type: vmess
     name: 美国 CloudFlare节点
     server: 104.17.2.183
-    port: '80'
+    port: 80
     uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
-    alterId: '0'
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
@@ -41,105 +44,57 @@ proxies:
       headers:
         host: v3ra3do.wakeuptimerap.shop
       path: /
-  - type: vmess
-    name: 日本 V2CROSS.COM
-    server: 43.201.253.222
-    port: 26540
-    uuid: c841c903-7657-41f7-bf55-b41dd9456179
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: 43.201.253.222
-      headers:
-        host: 43.201.253.222
-      path: /c841c903-7657-41f7-bf55-b41dd9456179
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.17.25.1
-    port: '80'
-    uuid: d87339e4-d57d-4475-ef76-a78205daa90e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: 1.catnipballs.gay
-      headers:
-        host: 1.catnipballs.gay
-      path: /
+  - name: 美国+Amazon数据中心
+    type: ss
+    server: series-a2-mec.samanehha.co
+    port: '443'
+    cipher: chacha20-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
   - name: 广东省广州市+移动
     type: trojan
     server: 183.236.51.7
-    port: '10807'
-    password: a22dea2a-b7db-4a0f-94dc-950fb036dd42
+    port: '10832'
+    password: 6c8c6a79-3713-4205-a434-5e00d9f33f11
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: cz1-vmess.sshmax.xyz
-    port: 80
-    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    sni: cz1-vmess.sshmax.xyz
-    ws-opts:
-      host: cz1-vmess.sshmax.xyz
-      headers:
-        host: cz1-vmess.sshmax.xyz
-      path: /vmess
-  - name: 德国+V2CROSS.COM
-    type: ss
-    server: 194.233.165.55
-    port: '80'
-    cipher: chacha20-ietf-poly1305
-    password: aFzkJJi4N6ILVSsSUzpoP4
-    udp: true
   - name: 广东省广州市+移动
     type: trojan
-    server: 183.236.51.6
-    port: '10828'
-    password: 1c61d5b7-6d42-47e7-9514-490a6e76ce2c
+    server: 183.236.51.7
+    port: '10802'
+    password: 589813d0-01da-4f15-bc4d-03f6964b03ce
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 亚太地区+V2CROSS.COM
-    type: trojan
-    server: 103.154.63.16
+  - name: 美国+V2CROSS.COM
+    type: ss
+    server: sg.sg02.763998.top
+    port: '51053'
+    cipher: chacha20-ietf-poly1305
+    password: b403cc34-1bd4-41f8-ab7a-648f887057ac
+    udp: true
+  - name: 美国+麻省理工学院
+    type: ss
+    server: 18.132.32.43
     port: '443'
-    password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
   - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    name: 美国 CloudFlare节点
+    server: very.sadnugget.shop
+    port: 80
+    uuid: a5324503-04bd-4ce4-a47a-e969d605a5a6
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: data-us-v1.shwjfkw.cn
+      host: vay.nuggetsecure.buzz
       headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - name: 美国+Amazon数据中心
-    type: ss
-    server: series-a1.samanehha.co
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-    udp: true
+        host: vay.nuggetsecure.buzz
+      path: /main

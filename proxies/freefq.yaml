@@ -1,6 +1,6 @@
 proxies:
   - type: vmess
-    name: 更新于:01-18 08:00 -by BuLink.xyz- 以下节点不计流量
+    name: 更新于:01-18 12:00 -by BuLink.xyz- 以下节点不计流量
     server: 使用前记得更新订阅
     port: '0'
     uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
@@ -10,32 +10,37 @@ proxies:
     tls: false
     skip-cert-verify: true
     tcp-opts: {}
+  - name: github.com/freefq - 美国俄亥俄州都柏林Amazon数据中心 1
+    type: ss
+    server: 18.218.239.120
+    port: '36326'
+    cipher: chacha20-ietf-poly1305
+    password: H6cSTf8vDbVH1cpnrAxFj2
+    udp: true
   - type: vmess
-    name: github.com/freefq - 台湾省台中市中华电信 1
-    server: c12.twtc.dynu.net
-    port: '6122'
-    uuid: 60ab817e-0566-44cb-becd-6b51698d5672
-    alterId: '0'
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 2
+    server: 104.17.25.1
+    port: 80
+    uuid: d87339e4-d57d-4475-ef76-a78205daa90e
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     tls: false
     skip-cert-verify: true
-    tcp-opts:
-      host: c12.twtc.dynu.net
+    ws-opts:
+      host: 1.catnipballs.gay
       headers:
-        host: c12.twtc.dynu.net
+        host: 1.catnipballs.gay
       path: /
-  - name: github.com/freefq - 北美地区  2
-    type: trojan
-    server: los16.ttddd.xyz
+  - name: github.com/freefq - 美国Amazon数据中心 3
+    type: ss
+    server: series-a2-mec.samanehha.co
     port: '443'
-    password: 27876_t7d7f4e3f
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
   - type: vmess
-    name: github.com/freefq - 美国  3
+    name: github.com/freefq - 美国  4
     server: 172.99.190.109
     port: 443
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -46,21 +51,6 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: linkvws
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare节点 4
-    server: cfcdn3.sanfencdn9.com
-    port: 80
-    uuid: dab86579-d197-431b-8e72-3d8a75968040
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: oA5FSz9Tjp1.yofnhkfc.xyz
-      headers:
-        host: oA5FSz9Tjp1.yofnhkfc.xyz
-      path: /video/P7EExoE2
   - type: vmess
     name: github.com/freefq - 美国CloudFlare公司CDN节点 5
     server: 104.17.2.183
@@ -77,7 +67,52 @@ proxies:
         host: v3ra3do.wakeuptimerap.shop
       path: /
   - type: vmess
-    name: github.com/freefq - 广东省移动 6
+    name: github.com/freefq - 印度  6
+    server: bs2.loadingip.com
+    port: 80
+    uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: bs2.loadingip.com
+      headers:
+        host: bs2.loadingip.com
+      path: /bs
+  - type: vmess
+    name: github.com/freefq - 美国  7
+    server: 199.15.76.35
+    port: 443
+    uuid: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: sometimes-able-imported-drainage.trycloudflare.com
+      headers:
+        host: sometimes-able-imported-drainage.trycloudflare.com
+      path: 1a3765c8-790f-4bb5-bf3d-c1fa19afd98c-vm
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 8
+    server: glaSco.fx-trAder.shop
+    port: '80'
+    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: vvv2vayo2.everythingisreve.shop
+      headers:
+        host: vvv2vayo2.everythingisreve.shop
+      path: /
+  - type: vmess
+    name: github.com/freefq - 广东省移动 9
     server: data-us-v1.shwjfkw.cn
     port: '20401'
     uuid: b1478e24-4916-3abe-8f17-15931012ecbe
@@ -92,47 +127,62 @@ proxies:
         host: data-us-v1.shwjfkw.cn
       path: /debian
   - type: vmess
-    name: github.com/freefq - 巴勒斯坦  7
-    server: 82.213.5.50
-    port: '80'
-    uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: tabyan205.serveftp.com
-      headers:
-        host: tabyan205.serveftp.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 8
-    server: 104.17.25.1
+    name: github.com/freefq - 美国CloudFlare节点 10
+    server: cc3.shabijichang.com
     port: 80
-    uuid: d87339e4-d57d-4475-ef76-a78205daa90e
+    uuid: 5c8c6ca5-cf2c-4a13-a6ff-0281b60779a3
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: 1.catnipballs.gay
+      host: cc3.shabijichang.com
       headers:
-        host: 1.catnipballs.gay
+        host: cc3.shabijichang.com
       path: /
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 9
-    server: glaSco.fx-trAder.shop
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 11
+    server: cfcdn3.sanfencdn9.com
+    port: 80
+    uuid: dab86579-d197-431b-8e72-3d8a75968040
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: oA5FSz9Tjp1.yofnhkfc.xyz
+      headers:
+        host: oA5FSz9Tjp1.yofnhkfc.xyz
+      path: /video/P7EExoE2
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 12
+    server: cc3.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cc3.shabijichang.com
+      headers:
+        host: cc3.shabijichang.com
+      path: /
+  - type: vmess
+    name: github.com/freefq - 新加坡亚马逊(Amazon)公司数据中心 13
+    server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
     port: '80'
-    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
+    uuid: 71d5d969-1c58-4bc9-b36c-111616f03c03
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: vvv2vayo2.everythingisreve.shop
+      host: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
       headers:
-        host: vvv2vayo2.everythingisreve.shop
+        host: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
       path: /

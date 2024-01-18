@@ -1,92 +1,4 @@
 proxies:
-  - name: 广东省广州市+移动
-    type: trojan
-    server: 183.236.51.6
-    port: '10808'
-    password: 55ed7f3f-86d1-455b-b4d0-43342de056c7
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 广东省广州市+移动
-    type: trojan
-    server: xibaozi.19890604.day
-    port: '10846'
-    password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 广东省广州市+移动
-    type: trojan
-    server: 183.236.51.7
-    port: '10829'
-    password: 55ed7f3f-86d1-455b-b4d0-43342de056c7
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: glaSco.fx-trAder.shop
-    port: '80'
-    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: vvv2vayo2.everythingisreve.shop
-      headers:
-        host: vvv2vayo2.everythingisreve.shop
-      path: /
-  - name: 广东省广州市+移动
-    type: trojan
-    server: xibaozi.19890604.day
-    port: '10845'
-    password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 广东省广州市 移动
-    server: iepl2.airtcp.vip
-    port: 1002
-    uuid: 229ccd44-c56c-3947-88de-849dd70c180d
-    alterId: 2
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: 伊朗 V2CROSS.COM
-    server: tls40.gsmxreality.com
-    port: 19661
-    uuid: 82e6520c-74b7-407a-c14f-6fe1388f8c5c
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cc3.shabijichang.com
-    port: 80
-    uuid: c458695d-6908-45c3-9512-e0c46418454c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: cc3.shabijichang.com
-      headers:
-        host: cc3.shabijichang.com
-      path: /
   - name: 亚太地区+V2CROSS.COM
     type: trojan
     server: 103.154.63.16
@@ -96,55 +8,59 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.21.53.240
+    port: '443'
+    password: fc0d8f63-3b23-4998-998b-200cfa471dc9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 北美地区+V2CROSS.COM
+    type: trojan
+    server: los16.ttddd.xyz
+    port: '443'
+    password: 27876_t7d7f4e3f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 南非 V2CROSS.COM
+    server: hk5.ansh.cfd
+    port: 56120
+    uuid: 1fec02d1-d750-424f-a552-6eb5770c7e2c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: ywhk1.kcjs.me
+      headers:
+        host: ywhk1.kcjs.me
+      path: /gd3245vd2S32cr
   - type: vmess
     name: 美国 CloudFlare节点
-    server: glaSco.fx-trAder.shop
-    port: '80'
-    uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-    alterId: '0'
+    server: cfcdn3.sanfencdn9.com
+    port: 80
+    uuid: dab86579-d197-431b-8e72-3d8a75968040
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: vvv2vayo2.everythingisreve.shop
+      host: oA5FSz9Tjp1.yofnhkfc.xyz
       headers:
-        host: vvv2vayo2.everythingisreve.shop
-      path: /
-  - type: vmess
-    name: 台湾省台北市 中华电信
-    server: nb24.ntbq.dynu.net
-    port: 4443
-    uuid: 60ab817e-0566-44cb-becd-6b51698d5672
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - name: 美国+华盛顿州
-    type: ss
-    server: 205.134.180.143
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: R9Xc4dHXGv3c
-    udp: true
-  - type: vmess
-    name: 伊朗 V2CROSS.COM
-    server: 81.12.27.108
-    port: 16767
-    uuid: d30a1c51-d37c-4cb8-bee6-8f5cd746f9d7
-    alterId: '0'
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - name: 美国+V2CROSS.COM
+        host: oA5FSz9Tjp1.yofnhkfc.xyz
+      path: /video/P7EExoE2
+  - name: 美国+CloudFlare节点
     type: trojan
-    server: frontend.yijianlian.app
-    port: '54590'
-    password: 078f4183-2897-4720-a561-66ddbfb396c8
+    server: 173.245.58.34
+    port: '2096'
+    password: DUvWfvC7xH
     skip-cert-verify: true
     alpn:
       - h2
@@ -152,7 +68,7 @@ proxies:
   - name: 广东省广州市+移动
     type: trojan
     server: xibaozi.19890604.day
-    port: '10838'
+    port: '10845'
     password: 66c899df-785c-4290-9c10-74a62b3ddd2b
     skip-cert-verify: true
     alpn:
@@ -160,23 +76,101 @@ proxies:
       - http/1.1
   - name: 英国+伦敦Amazon数据中心
     type: ss
-    server: series-a2-mec.samanehha.co
+    server: series-a2-me.samanehha.co
     port: '443'
     cipher: chacha20-ietf-poly1305
-    password: u17T3BvpYaaiuW2c
+    password: Bog0ELmMM9DSxDdQ
     udp: true
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cc3.shabijichang.com
-    port: 80
-    uuid: 5c8c6ca5-cf2c-4a13-a6ff-0281b60779a3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.20.219.67
+    port: '2096'
+    password: DUvWfvC7xH
     skip-cert-verify: true
-    ws-opts:
-      host: cc3.shabijichang.com
-      headers:
-        host: cc3.shabijichang.com
-      path: /
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.18.202.232
+    port: '80'
+    password: '1'
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: mkh.adminwp.eu.org
+    port: '443'
+    password: fc0d8f63-3b23-4998-998b-200cfa471dc9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 广东省+移动
+    type: ss
+    server: nc.cn2.go002.xyz
+    port: '19511'
+    cipher: chacha20-ietf-poly1305
+    password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
+    udp: true
+  - name: 广东省广州市+移动
+    type: trojan
+    server: xibaozi.19890604.day
+    port: '10847'
+    password: 66c899df-785c-4290-9c10-74a62b3ddd2b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 亚太地区+V2CROSS.COM
+    type: trojan
+    server: 103.154.62.22
+    port: '443'
+    password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 江苏省+移动
+    type: trojan
+    server: east.eeeeeef998.buzz
+    port: '15006'
+    password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+俄亥俄州都柏林Amazon数据中心
+    type: ss
+    server: 18.218.239.120
+    port: '36326'
+    cipher: chacha20-ietf-poly1305
+    password: H6cSTf8vDbVH1cpnrAxFj2
+    udp: true
+  - name: 广东省广州市+移动
+    type: trojan
+    server: 183.236.51.6
+    port: '10808'
+    password: 55ed7f3f-86d1-455b-b4d0-43342de056c7
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Amazon数据中心
+    type: trojan
+    server: 13.37.61.248
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 英国+伦敦Amazon数据中心
+    type: ss
+    server: 52.56.155.65
+    port: '443'
+    cipher: chacha20-poly1305
+    password: Bog0ELmMM9DSxDdQ
+    udp: true

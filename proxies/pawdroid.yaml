@@ -1,81 +1,35 @@
 proxies:
   - name: 美国+麻省理工学院
-    type: trojan
-    server: 18.132.74.91
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    type: ss
+    server: series-a2.samanehha.co
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: mps3FwmDjLrWaOVg
+    udp: true
   - name: 美国+CloudFlare节点
     type: trojan
-    server: 104.20.219.67
+    server: 173.245.58.34
     port: '2096'
     password: DUvWfvC7xH
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 亚太地区+V2CROSS.COM
+  - name: 韩国+蘑菇主机BGP数据中心
     type: trojan
-    server: 103.154.63.16
-    port: '443'
-    password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f
+    server: 103.214.68.57
+    port: '10003'
+    password: 6x8HcghsjS
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cc3.shabijichang.com
-    port: 80
-    uuid: 5c8c6ca5-cf2c-4a13-a6ff-0281b60779a3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: cc3.shabijichang.com
-      headers:
-        host: cc3.shabijichang.com
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cfcdn3.sanfencdn9.com
-    port: 2052
-    uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: wtywwcrzjp5.yofnhkfc.xyz
-      headers:
-        host: wtywwcrzjp5.yofnhkfc.xyz
-      path: /video/9TfVEyku
-  - name: 美国+CloudFlare节点
+  - name: ''
     type: trojan
-    server: 104.20.17.40
-    port: '443'
-    password: da6aed6a-767d-4049-b801-85c38ab0d797
+    server: VPNCUSTOMIZE&sni=England-V2ray.vpncustomize.tech&type=grpc#美国+CloudFlare节点
+    port: ''
+    password: >-
+      6yIitAmNwb@tel.VPNCUSTOMIZE.cam:2096?alpn=h2,http/1.1&mode=gun&security=tls&serviceName=,
     skip-cert-verify: true
     alpn:
       - h2
@@ -95,6 +49,49 @@ proxies:
       headers:
         host: vvv2vayo2.everythingisreve.shop
       path: /
+  - name: 美国+麻省理工学院
+    type: trojan
+    server: 18.134.225.84
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 印度+V2CROSS.COM
+    type: trojan
+    server: hanoi4.5gsieutocdo.com
+    port: '443'
+    password: c95357eb-2869-4511-8940-f0dc5e1ec9b1
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 广东省广州市+移动
+    type: trojan
+    server: 183.236.51.7
+    port: '10829'
+    password: 55ed7f3f-86d1-455b-b4d0-43342de056c7
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 乌克兰+V2CROSS.COM
+    type: ss
+    server: 194.15.52.34
+    port: '8443'
+    cipher: chacha20-ietf-poly1305
+    password: JkHsWlOaehyG8BNZfcc7flhuAPRYea/febOQIBjYR0Q=
+    udp: true
+  - name: 爱尔兰+都柏林Amazon数据中心
+    type: trojan
+    server: 52.211.129.190
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - name: 美国+CloudFlare节点
     type: trojan
     server: 104.18.213.21
@@ -104,18 +101,33 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - type: vmess
-    name: 台湾省新北市 中华电信
-    server: b23.ntbq.dynu.net
-    port: '2024'
-    uuid: 99e39047-9298-404e-b632-1867f7ed1b37
-    alterId: '0'
-    cipher: auto
-    network: tcp
-    tls: false
+  - name: 美国+麻省理工学院
+    type: ss
+    server: series-a2-me.samanehha.co
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+    udp: true
+  - name: 美国+Xerox
+    type: trojan
+    server: 13.51.38.136
+    port: '22222'
+    password: telegram-id-directvpn
     skip-cert-verify: true
-    tcp-opts:
-      host: b23.ntbq.dynu.net
-      headers:
-        host: b23.ntbq.dynu.net
-      path: /
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+麻省理工学院
+    type: ss
+    server: series-a1.samanehha.co
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: 美国+麻省理工学院
+    type: ss
+    server: 18.134.118.156
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true

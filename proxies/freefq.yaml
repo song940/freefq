@@ -1,6 +1,6 @@
 proxies:
   - type: vmess
-    name: 更新于:01-21 16:00 -by BuLink.xyz- 以下节点不计流量
+    name: 更新于:01-21 20:00 -by BuLink.xyz- 以下节点不计流量
     server: 使用前记得更新订阅
     port: '0'
     uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
@@ -11,22 +11,177 @@ proxies:
     skip-cert-verify: true
     tcp-opts: {}
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 1
-    server: cfcdn1.sanfencdn9.com
-    port: '2082'
-    uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+    name: github.com/freefq - 台湾省新竹市中华电信 1
+    server: nb22.ntbq.dynu.net
+    port: 12002
+    uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: github.com/freefq - 台湾省新竹市中华电信 2
+    server: nb22.ntbq.dynu.net
+    port: 12002
+    uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: github.com/freefq - 台湾省中华电信(HiNet)数据中心 3
+    server: c12.twtc.dynu.net
+    port: '6122'
+    uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      host: c12.twtc.dynu.net
+      headers:
+        host: c12.twtc.dynu.net
+      path: /
+  - name: github.com/freefq - 亚洲Microsoft公司 4
+    type: trojan
+    server: sg01.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: github.com/freefq - 台湾省新北市中华电信 5
+    server: nb24.ntbq.dynu.net
+    port: 4443
+    uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: github.com/freefq - 台湾省桃园市中华电信 6
+    server: 1.162.139.104
+    port: 21353
+    uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: github.com/freefq - 新加坡Choopa数据中心 7
+    server: 45.76.144.158
+    port: '52445'
+    uuid: f3023754-1b95-40eb-bdf9-fc524302fb9a
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: us4Bb5oSgJA.fzbqfrse.xyz
+      host: m.zoom.us
       headers:
-        host: us4Bb5oSgJA.fzbqfrse.xyz
-      path: /video/CuTy87zAzV/
+        host: m.zoom.us
+      path: /
+  - name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 8
+    type: trojan
+    server: my02.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 9
+    type: trojan
+    server: hk02.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: github.com/freefq - 美国Microsoft数据中心 10
+    type: trojan
+    server: my01.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: github.com/freefq - 亚洲Microsoft公司 11
+    type: trojan
+    server: sk01.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: github.com/freefq - 美国Microsoft数据中心 12
+    type: trojan
+    server: us01.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: github.com/freefq - 美国Microsoft数据中心 13
+    type: trojan
+    server: hk03.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: github.com/freefq - 亚洲Microsoft公司 14
+    type: trojan
+    server: in01.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
-    name: github.com/freefq - 台湾省新北市中华电信 2
+    name: github.com/freefq - 广东省广州市电信IDC机房 15
+    server: 03.kccic2pa.xyz
+    port: '50003'
+    uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      host: 03.kccic2pa.xyz
+      headers:
+        host: 03.kccic2pa.xyz
+      path: /
+  - name: github.com/freefq - 美国加利福尼亚州圣克拉拉Microsoft公司 16
+    type: trojan
+    server: hk04.trojanyyds.xyz
+    port: '443'
+    password: 07f10d31-d247-440e-a921-23862e1148a9
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: github.com/freefq - 台湾省新北市中华电信 17
     server: b23.ntbq.dynu.net
     port: 2024
     uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
@@ -36,38 +191,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     tcp-opts: {}
-  - name: github.com/freefq - 美国华盛顿州西雅图市亚马逊(Amazon)公司数据中心 3
-    type: ss
-    server: series-a2-mec.samanehha.co
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: u17T3BvpYaaiuW2c
-    udp: true
-  - name: github.com/freefq - 北美地区  4
-    type: trojan
-    server: los16.ttddd.xyz
-    port: '443'
-    password: 27876_t7d7f4e3f
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 5
-    server: 104.17.25.1
-    port: '80'
-    uuid: 83c19463-f966-4adb-a7d8-b127825ffab2
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: kr.catnipballs.gay
-      headers:
-        host: kr.catnipballs.gay
-      path: /
-  - name: github.com/freefq - 亚太地区  6
+  - name: github.com/freefq - 亚太地区  18
     type: trojan
     server: hk.zgc.su
     port: '567'
@@ -77,7 +201,7 @@ proxies:
       - h2
       - http/1.1
   - type: vmess
-    name: github.com/freefq - 台湾省新北市中华电信 7
+    name: github.com/freefq - 台湾省新北市中华电信 19
     server: 61.228.149.88
     port: 2024
     uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
@@ -88,18 +212,21 @@ proxies:
     skip-cert-verify: true
     tcp-opts: {}
   - type: vmess
-    name: github.com/freefq - 美国  8
-    server: krse10.ip8.shop
-    port: '25362'
-    uuid: 71618f91-d149-4b45-91c9-f94dd4e2499a
+    name: github.com/freefq - 广东省移动 20
+    server: data-us-v1.shwjfkw.cn
+    port: '20401'
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
     alterId: '0'
     cipher: auto
-    network: tcp
+    network: ws
     tls: false
     skip-cert-verify: true
-    tcp-opts:
-      path: /
-  - name: github.com/freefq - 广东省广州市移动 9
+    ws-opts:
+      host: data-us-v1.shwjfkw.cn
+      headers:
+        host: data-us-v1.shwjfkw.cn
+      path: /debian
+  - name: github.com/freefq - 广东省广州市移动 21
     type: ss
     server: service.ouluyun9803.com
     port: '26668'
@@ -107,22 +234,7 @@ proxies:
     password: cfa17a0d-5e7d-4871-976e-f116e0818123
     udp: true
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 10
-    server: 104.17.25.1
-    port: '80'
-    uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: sgvpn.catnipballs.gay
-      headers:
-        host: sgvpn.catnipballs.gay
-      path: /
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 11
+    name: github.com/freefq - 美国CloudFlare节点 22
     server: s1c.v2.v001sss.xyz
     port: '2082'
     uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a

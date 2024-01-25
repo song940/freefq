@@ -1,25 +1,112 @@
 proxies:
-  - name: 美国+V2CROSS.COM
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: cold-dawn-9246.fly.dev
+    port: '443'
+    uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: cold-dawn-9246.fly.dev
+      headers:
+        host: cold-dawn-9246.fly.dev
+      path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+  - name: 广东省广州市+移动
     type: trojan
-    server: 146.190.105.144
-    port: '42766'
-    password: Fn4rFdIWwW
+    server: xibaozi.19890604.day
+    port: '10848'
+    password: 3e5d1046-5807-4b79-8397-31a006f546d1
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 美国+Amazon+EC2服务器
+  - name: 美国+CloudFlare节点
     type: trojan
-    server: 3.73.238.119
+    server: ironone.libertasiran.cloud
+    port: '443'
+    password: LibertasOne**F*f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 广东省 移动
+    server: data-us-v1.shwjfkw.cn
+    port: '20401'
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: data-us-v1.shwjfkw.cn
+      headers:
+        host: data-us-v1.shwjfkw.cn
+      path: /debian
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.18.202.232
+    port: '2095'
+    password: wzZ-GniK9AYHUjn7LmoAmw
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 北美地区+V2CROSS.COM
+    type: trojan
+    server: 23.142.200.175
+    port: '443'
+    password: 27876_t7d7f4e3f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 爱尔兰+都柏林Amazon数据中心
+    type: trojan
+    server: 54.195.178.125
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 美国+俄勒冈州波特兰Amazon数据中心
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cf.openxai.link
+    port: '8080'
+    uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: eu1.openxai.link
+      headers:
+        host: eu1.openxai.link
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: biezaicuoguoxyz.qiliqili.store
+    port: 2052
+    uuid: 20fb7fae-1ef0-4663-a175-f5add2d0198e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cuoguouk.qiliqili.store
+      headers:
+        host: cuoguouk.qiliqili.store
+      path: /
+  - name: 美国+惠普公司
     type: trojan
-    server: 52.10.34.186
+    server: 15.236.176.227
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true
@@ -41,134 +128,30 @@ proxies:
       headers:
         host: sgvpn.catnipballs.gay
       path: /
-  - name: 广东省广州市+移动
-    type: trojan
-    server: xibaozi.19890604.day
-    port: '10848'
-    password: 3e5d1046-5807-4b79-8397-31a006f546d1
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: 91.242.229.69
-    port: '2086'
-    uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+    name: 美国 CloudFlare节点
+    server: yhnsb3.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: nl1.xv2ray.net
+      host: yhnsb3.shabijichang.com
       headers:
-        host: nl1.xv2ray.net
-      path: /vmess
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 172.67.217.144
-    port: '80'
-    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: lv1.xv2ray.net
-      headers:
-        host: lv1.xv2ray.net
+        host: yhnsb3.shabijichang.com
       path: /
-  - name: 美国+麻省理工学院
-    type: trojan
-    server: 18.135.26.205
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
-    name: 美国 CloudFlare节点
-    server: www.crispyrainbow.biz
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-  - name: 南非+V2CROSS.COM
-    type: ss
-    server: 129.232.129.156
-    port: '444'
-    cipher: chacha20-ietf-poly1305
-    password: DiPietyory
-    udp: true
-  - type: vmess
-    name: 俄罗斯 V2CROSS.COM
-    server: ru01.333210.xyz
-    port: '80'
-    uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+    name: 台湾省南投县 中华电信
+    server: c12.twtc.dynu.net
+    port: 6122
+    uuid: a209ff8c-d691-496c-8c1f-32d2e995b603
     alterId: '0'
     cipher: auto
     network: tcp
-    tls: true
-    skip-cert-verify: true
-    tcp-opts:
-      host: ru01.333210.xyz
-      headers:
-        host: ru01.333210.xyz
-      path: /
-  - name: 巴西圣保罗+CloudFlare节点
-    type: trojan
-    server: 188.114.98.0
-    port: '443'
-    password: 01596265-168b-46a7-bcb7-25662c7a9546
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 美国+Amazon数据中心
-    type: ss
-    server: 18.171.113.137
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-    udp: true
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.18.202.232
-    port: '80'
-    password: pUxG77WPOZ
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 美国+惠普公司
-    type: trojan
-    server: 15.236.176.227
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: '0'
-    cipher: auto
-    network: ws
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
+    tcp-opts:
+      path: /

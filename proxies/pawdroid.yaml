@@ -1,70 +1,73 @@
 proxies:
   - type: vmess
-    name: 台湾省 中华电信(HiNet)数据中心
-    server: 118.167.67.180
-    port: '4443'
-    uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: 185.158.211.186
-    port: '80'
-    uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+    name: 美国 CloudFlare节点
+    server: s1c.v2.v001sss.xyz
+    port: '2082'
+    uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: softiri.serveirc.com
+      host: s1c.v2.v001sss.xyz
       headers:
-        host: softiri.serveirc.com
-      path: /@forwardv2ray
-  - name: 美国+华盛顿州
-    type: ss
-    server: 205.134.180.143
+        host: s1c.v2.v001sss.xyz
+      path: /
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: cold-dawn-9246.fly.dev
     port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: R9Xc4dHXGv3c
-    udp: true
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.19.145.205
-    port: '443'
-    password: a6292090-afe1-4640-97a7-4f1d1d877cf1
+    uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
     skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 美国+俄勒冈州波特兰Amazon数据中心
-    type: trojan
-    server: 52.10.34.186
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    ws-opts:
+      host: cold-dawn-9246.fly.dev
+      headers:
+        host: cold-dawn-9246.fly.dev
+      path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
   - type: vmess
     name: 美国 CloudFlare节点
-    server: cf.openxai.link
-    port: '8080'
-    uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+    server: yhnsb3.shabijichang.com
+    port: 80
+    uuid: c458695d-6908-45c3-9512-e0c46418454c
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: eu1.openxai.link
+      host: yhnsb3.shabijichang.com
       headers:
-        host: eu1.openxai.link
-      path: /?ed=2048
+        host: yhnsb3.shabijichang.com
+      path: /
+  - name: 韩国+蘑菇主机BGP数据中心
+    type: trojan
+    server: 103.214.68.57
+    port: '10003'
+    password: 6x8HcghsjS
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.17.25.2
+    port: '80'
+    uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: sgvpn.catnipballs.gay
+      headers:
+        host: sgvpn.catnipballs.gay
+      path: /
   - name: 英国+伦敦Amazon数据中心
     type: trojan
     server: 52.56.68.7
@@ -74,30 +77,28 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 美国+Amazon+EC2服务器
+  - name: 江苏省+移动
     type: trojan
-    server: 3.140.108.178
+    server: east.eeeeeef998.buzz
+    port: '15003'
+    password: 414dff55-922a-4dc8-b5d3-b6517942b25a
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Amazon数据中心
+    type: trojan
+    server: 18.153.204.249
     port: '22222'
-    password: telegram-id-directvpn
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
   - type: vmess
-    name: 台湾省南投县 中华电信
-    server: 36.232.158.210
-    port: '6122'
-    uuid: a209ff8c-d691-496c-8c1f-32d2e995b603
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
     name: 乌克兰 V2CROSS.COM
-    server: 95.164.8.106
-    port: '80'
+    server: ee2-vmess.sshmax.xyz
+    port: 80
     uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
     alterId: '0'
     cipher: auto
@@ -109,74 +110,36 @@ proxies:
       headers:
         host: ee2-vmess.sshmax.xyz
       path: /vmess
-  - name: 爱尔兰+都柏林Amazon数据中心
-    type: trojan
-    server: 34.246.216.186
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: pt2-vmess.sshmax.xyz
-    port: 80
-    uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-    alterId: 0
+    name: 美国 CloudFlare节点
+    server: cfcdn2.sanfencdn9.com
+    port: 2052
+    uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
+    alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: pt2-vmess.sshmax.xyz
+      host: jpafzyhfsg3.yofnhkfc.xyz
       headers:
-        host: pt2-vmess.sshmax.xyz
-      path: /vmess
+        host: jpafzyhfsg3.yofnhkfc.xyz
+      path: /video/u4eCZTxW
   - type: vmess
     name: 台湾省 中华电信(HiNet)数据中心
     server: b23.ntbq.dynu.net
     port: 2024
     uuid: d9e103fc-741d-459f-9a92-4f59bfb083ef
-    alterId: 0
+    alterId: '0'
     cipher: auto
     network: tcp
     tls: false
     skip-cert-verify: true
-    tcp-opts: {}
-  - name: 美国+Amazon+EC2服务器
-    type: trojan
-    server: 3.78.191.16
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: 94.131.10.135
-    port: '80'
-    uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
-  - name: 广东省广州市+移动
-    type: trojan
-    server: xibaozi.19890604.day
-    port: '10848'
-    password: 3e5d1046-5807-4b79-8397-31a006f546d1
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    tcp-opts:
+      path: /
   - name: 美国+惠普公司
     type: trojan
-    server: 15.236.97.67
+    server: 15.236.13.134
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
@@ -184,17 +147,38 @@ proxies:
       - h2
       - http/1.1
   - type: vmess
-    name: 印度 V2CROSS.COM
-    server: bs2.loadingip.com
-    port: '80'
-    uuid: 5278f5d3-f001-4459-94b6-7e0915238998
+    name: 台湾省南投县 中华电信
+    server: c12.twtc.dynu.net
+    port: '6122'
+    uuid: a209ff8c-d691-496c-8c1f-32d2e995b603
     alterId: '0'
     cipher: auto
-    network: ws
+    network: tcp
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      host: bs2.loadingip.com
+    tcp-opts:
+      host: c12.twtc.dynu.net
       headers:
-        host: bs2.loadingip.com
-      path: /bs
+        host: c12.twtc.dynu.net
+      path: /
+  - type: vmess
+    name: 台湾省 中华电信(HiNet)数据中心
+    server: nb22.ntbq.dynu.net
+    port: 12002
+    uuid: 05f1e2ad-1d21-449b-9bbb-97a8b4662934
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      path: /
+  - name: 美国+Amazon+EC2服务器
+    type: trojan
+    server: 3.140.108.178
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1

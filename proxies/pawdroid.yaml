@@ -1,37 +1,28 @@
 proxies:
-  - name: 北美地区+V2CROSS.COM
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.24.72
+    port: 80
+    uuid: 5120d7e0-5ba9-4164-b61b-0f8fefabab34
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: no1.xv2ray.net
+      headers:
+        host: no1.xv2ray.net
+      path: /vmess
+  - name: 美国+Amazon数据中心
     type: trojan
-    server: los16.ttddd.xyz
-    port: '443'
-    password: 27876_t7d7f4e3f
+    server: 18.171.90.226
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - type: vmess
-    name: 甘肃省兰州市 移动
-    server: 4a2u0a05.m1k2s.xyz
-    port: '31506'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: us05.lovemc.xyz
-    tcp-opts: {}
-  - type: vmess
-    name: 甘肃省兰州市 移动
-    server: 9t1d5e04.m1k2s.xyz
-    port: '31841'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: de04.lovemc.xyz
-    tcp-opts: {}
   - name: 爱尔兰+V2CROSS.COM
     type: trojan
     server: 63.35.135.61
@@ -41,93 +32,107 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: 美国+Amazon数据中心
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.17.25.2
+    port: '80'
+    uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: sgvpn.catnipballs.gay
+      headers:
+        host: sgvpn.catnipballs.gay
+      path: /
+  - name: 美国+麻省理工学院
+    type: ss
+    server: 18.134.81.3
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
+  - type: vmess
+    name: 俄罗斯 莫斯科JustHost
+    server: 45.144.2.113
+    port: '80'
+    uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.apple.com
+      headers:
+        host: www.apple.com
+      path: /
+  - type: vmess
+    name: 河北省 中移铁通
+    server: 36.212.152.13
+    port: '33329'
+    uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - name: 美国+V2CROSS.COM
+    type: ss
+    server: 74.119.194.192
+    port: '41743'
+    cipher: chacha20-ietf-poly1305
+    password: KBnPIuBNoue5acFpQ28LHg
+    udp: true
+  - name: 哥斯达黎加+V2CROSS.COM
+    type: ss
+    server: 144.22.175.207
+    port: '7701'
+    cipher: aes-256-gcm
+    password: f2f16516-5636-416f-8ba4-d9687e275276
+    udp: true
+  - name: 韩国+蘑菇主机BGP数据中心
     type: trojan
-    server: 13.37.81.241
+    server: 103.214.68.57
+    port: '10003'
+    password: 6x8HcghsjS
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: s1c.v2.v001sss.xyz
+    port: 2082
+    uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+  - name: 美国+麻省理工学院
+    type: trojan
+    server: 18.134.194.250
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 6w7j3p06.m1k2s.xyz
-    port: '31111'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
+  - name: 德国+黑森州法兰克福Amazon数据中心
+    type: trojan
+    server: 52.57.241.185
+    port: '22222'
+    password: telegram-id-directvpn
     skip-cert-verify: true
-    sni: jp06.lovemc.xyz
-    tcp-opts: {}
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 4t1r5u04.m1k2s.xyz
-    port: '31851'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: ru04.lovemc.xyz
-    tcp-opts: {}
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 4a2u0a06.m1k2s.xyz
-    port: '31511'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: us06.lovemc.xyz
-    tcp-opts: {}
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 162.159.200.5
-    port: 80
-    uuid: 4899b015-5823-486d-bfe6-06c3239260f5
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: jp3.889611.com
-      headers:
-        host: jp3.889611.com
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 162.159.200.3
-    port: 80
-    uuid: 4899b015-5823-486d-bfe6-06c3239260f5
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: sg3.889611.com
-      headers:
-        host: sg3.889611.com
-      path: /
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 3a4u0k04.m1k2s.xyz
-    port: '31811'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: uk04.lovemc.xyz
-    tcp-opts: {}
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 美国 Fastly全球Anycast节点
     server: 104.156.85.242
@@ -144,16 +149,18 @@ proxies:
         host: zhejiang2024.com
       path: /
   - name: 美国+麻省理工学院
-    type: ss
-    server: jseyu.arvancode.eu.org
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-    udp: true
+    type: trojan
+    server: 18.132.221.180
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 162.159.200.7
-    port: 80
+    server: 104.18.15.150
+    port: '80'
     uuid: 4899b015-5823-486d-bfe6-06c3239260f5
     alterId: '0'
     cipher: auto
@@ -161,119 +168,35 @@ proxies:
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: er3.visaapp.top
+      host: er3.889611.com
       headers:
-        host: er3.visaapp.top
+        host: er3.889611.com
       path: /
   - type: vmess
-    name: 台湾省 晟崴科技股份有限公司
-    server: 3SAO.5GTOCDOCAO.COM
-    port: '80'
-    uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-    alterId: '0'
+    name: 甘肃省兰州市 移动
+    server: 36.139.110.169
+    port: '33408'
+    uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+    alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      host: lienquan.garena.vn
-      headers:
-        host: lienquan.garena.vn
-      path: /5gtocdocao.com
-  - type: vmess
-    name: 俄罗斯 V2CROSS.COM
-    server: ru01.333210.xyz
-    port: '80'
-    uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
     tcp-opts: {}
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cf.openxai.link
-    port: '8080'
-    uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: eu5.openxai.link
-      headers:
-        host: eu5.openxai.link
-      path: /?ed=2048
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 6q3i1n04.m1k2s.xyz
-    port: '31831'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: in04.lovemc.xyz
-    tcp-opts: {}
-  - name: 保加利亚+索非亚Melbicom数据中心
-    type: ss
-    server: 213.183.63.189
-    port: '16325'
-    cipher: chacha20-ietf-poly1305
-    password: lgTGrmtOtgcDduVPJ1LU5s
-    udp: true
-  - type: vmess
-    name: 美国 V2CROSS.COM
-    server: 172.99.190.109
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: linkvws
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 3c2h4u04.m1k2s.xyz
-    port: '31864'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: hu04.lovemc.xyz
-    tcp-opts: {}
-  - name: 亚太地区+V2CROSS.COM
+  - name: 美国+Amazon数据中心
     type: trojan
-    server: 103.149.87.45
-    port: '443'
-    password: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
+    server: 13.37.214.102
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
   - type: vmess
-    name: 台湾省 中华电信(HiNet)数据中心
-    server: 118.167.77.5
-    port: 4443
-    uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
-    alterId: '0'
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
     name: 乌克兰 V2CROSS.COM
-    server: be1-vmess.sshmax.xyz
-    port: 80
-    uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+    server: 91.242.229.69
+    port: 2086
+    uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
     alterId: 0
     cipher: auto
     network: ws
@@ -281,34 +204,3 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /vmess
-  - name: 广东省广州市+移动
-    type: ss
-    server: service.ouluyun9803.com
-    port: '20003'
-    cipher: chacha20-ietf-poly1305
-    password: cfa17a0d-5e7d-4871-976e-f116e0818123
-    udp: true
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 3d1c4a04.m1k2s.xyz
-    port: '31701'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: ca04.lovemc.xyz
-    tcp-opts: {}
-  - type: vmess
-    name: 广东省江门市 移动
-    server: 6w7j3p04.m1k2s.xyz
-    port: '31116'
-    uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-    skip-cert-verify: true
-    sni: jp04.lovemc.xyz
-    tcp-opts: {}

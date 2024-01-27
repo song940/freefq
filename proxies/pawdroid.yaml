@@ -1,233 +1,9 @@
 proxies:
-  - name: 美国+俄亥俄州都柏林Amazon数据中心
-    type: trojan
-    server: 18.218.29.132
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 V2CROSS.COM
-    server: hamrahaval.asan3a.shop
-    port: '8080'
-    uuid: 3a6752b4-8353-4172-85b1-32202116714d
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: asan3.azad1.tech
-      headers:
-        host: asan3.azad1.tech
-      path: /
-  - name: 广东省广州市+移动
-    type: trojan
-    server: xibaozi.19890604.day
-    port: '10845'
-    password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 美国+惠普HP
-    type: trojan
-    server: 16.170.16.180
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.19.234.82
-    port: '8080'
-    uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: us5PhAx6xsj.fzbqfrse.xyz
-      headers:
-        host: us5PhAx6xsj.fzbqfrse.xyz
-      path: /video/f8ZKTGaGoC/
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.16.149.118
-    port: '443'
-    password: 7d618f20-bbc7-11ee-a803-1239d0255272
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 广东省 移动
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: www.crispyrainbow.online
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: www.crispyrainbow.online
-      headers:
-        host: www.crispyrainbow.online
-      path: /
-  - name: 美国+Xerox
-    type: trojan
-    server: 13.51.226.183
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: s1c.v2.v001sss.xyz
-    port: 2082
-    uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.73.14
-    port: 8880
-    uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: yaghoob55freenodes.repaco69437403.workers.dev
-      headers:
-        host: yaghoob55freenodes.repaco69437403.workers.dev
-      path: /adenc35.fixedlfoat.top/linkws
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.18.202.232
-    port: '2095'
-    password: wzZ-GniK9AYHUjn7LmoAmw
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: 美国+Amazon数据中心
     type: trojan
-    server: 13.41.123.35
+    server: 18.199.44.198
     port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 河北省+中移铁通
-    type: ss
-    server: 36.212.148.208
-    port: '10022'
-    cipher: aes-128-gcm
-    password: 91491792-77B1-4ED6-BD01-52DC46B81AD0
-    udp: true
-  - type: vmess
-    name: 美国 V2CROSS.COM
-    server: 104.31.16.104
-    port: 8080
-    uuid: 3a6752b4-8353-4172-85b1-32202116714d
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: asan3.azad1.tech
-      headers:
-        host: asan3.azad1.tech
-      path: /
-  - name: 美国+V2CROSS.COM
-    type: ss
-    server: 168.138.141.222
-    port: '7704'
-    cipher: aes-256-gcm
-    password: 0bfba64e-6640-4286-9fc0-b988253cc94f
-    udp: true
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 172.67.217.144
-    port: '80'
-    uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: lv1.xv2ray.net
-      headers:
-        host: lv1.xv2ray.net
-      path: /
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: be1-vmess.sshmax.xyz
-    port: '80'
-    uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: be1-vmess.sshmax.xyz
-      headers:
-        host: be1-vmess.sshmax.xyz
-      path: /vmess
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cf.178820225.xyz
-    port: 80
-    uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: ams.178820225.xyz
-      headers:
-        host: ams.178820225.xyz
-      path: /h5e65fd
-  - name: 美国+V2CROSS.COM
-    type: trojan
-    server: 146.190.106.34
-    port: '52625'
-    password: wIcY2HF0g8
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
@@ -247,18 +23,202 @@ proxies:
       headers:
         host: eu4.openxai.link
       path: /?ed=2048
+  - name: 美国+V2CROSS.COM
+    type: ss
+    server: 158.101.71.166
+    port: '21853'
+    cipher: chacha20-ietf-poly1305
+    password: 14f749bb-ffc5-4f6b-96e7-ab478eeb4969
+    udp: true
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.19.43.12
-    port: 80
-    uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
+    server: 104.18.202.250
+    port: 2082
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: ams.178820225.xyz
+      host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
       headers:
-        host: ams.178820225.xyz
-      path: /h5e65fd
+        host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+      path: /nina.bond/linkvws
+  - name: 美国+加利福尼亚
+    type: trojan
+    server: 64.176.162.24
+    port: '443'
+    password: wkmY1R4EcP
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 德国+黑森州法兰克福Amazon数据中心
+    type: trojan
+    server: 35.158.252.181
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 英国+伦敦Amazon数据中心
+    type: ss
+    server: series-a1.samanehha.co
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: 美国+加利福尼亚州圣克拉拉Microsoft公司
+    type: trojan
+    server: tw02.trojanyyds.xyz
+    port: '443'
+    password: 62ce224c-3ae9-47bb-9ef6-c4f3d233fd08
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 广东省广州市+移动
+    type: trojan
+    server: xibaozi.19890604.day
+    port: '10837'
+    password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: www.crispyrainbow.online
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.crispyrainbow.online
+      headers:
+        host: www.crispyrainbow.online
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: www.crispyrainbow.biz
+    port: '8080'
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.crispyrainbow.biz
+      headers:
+        host: www.crispyrainbow.biz
+      path: /
+  - name: 法国+巴黎Amazon数据中心
+    type: trojan
+    server: 35.181.126.234
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 广东省广州市+移动
+    type: trojan
+    server: xibaozi.19890604.day
+    port: '10845'
+    password: 329d1d2a-c4f5-471d-abd3-3f6f234947bb
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.16.149.118
+    port: '443'
+    password: 7d618f20-bbc7-11ee-a803-1239d0255272
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Xerox
+    type: trojan
+    server: 13.51.226.183
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 河北省+中移铁通
+    type: ss
+    server: 36.212.148.208
+    port: '10024'
+    cipher: aes-128-gcm
+    password: 91491792-77B1-4ED6-BD01-52DC46B81AD0
+    udp: true
+  - name: 美国+惠普公司
+    type: trojan
+    server: 16.16.163.252
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: www.blueberrywindow.online
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+  - name: 乌克兰+V2CROSS.COM
+    type: ss
+    server: 95.164.69.152
+    port: '1443'
+    cipher: chacha20-ietf-poly1305
+    password: MzFiY
+    udp: true
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.16.30.241
+    port: '2095'
+    password: wzZ-GniK9AYHUjn7LmoAmw
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 104.18.202.232
+    port: '2095'
+    password: wzZ-GniK9AYHUjn7LmoAmw
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 乌克兰 V2CROSS.COM
+    server: 94.131.97.123
+    port: 80
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cz1-vmess.sshmax.xyz
+      headers:
+        host: cz1-vmess.sshmax.xyz
+      path: /vmess

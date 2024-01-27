@@ -1,6 +1,6 @@
 proxies:
   - type: vmess
-    name: 更新于:01-27 08:00 -by BuLink.xyz- 以下节点不计流量
+    name: 更新于:01-27 12:00 -by BuLink.xyz- 以下节点不计流量
     server: 使用前记得更新订阅
     port: '0'
     uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
@@ -12,21 +12,40 @@ proxies:
     tcp-opts: {}
   - type: vmess
     name: github.com/freefq - 美国CloudFlare公司CDN节点 1
-    server: 104.31.16.104
-    port: 8080
-    uuid: 3a6752b4-8353-4172-85b1-32202116714d
-    alterId: 0
+    server: 104.17.25.1
+    port: '80'
+    uuid: aa8edc9c-978a-4f09-906f-a2668751e935
+    alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: asan3.azad1.tech
+      host: usnatvpn.catnipballs.gay
       headers:
-        host: asan3.azad1.tech
+        host: usnatvpn.catnipballs.gay
       path: /
   - type: vmess
     name: github.com/freefq - 乌克兰  2
+    server: be1-vmess.sshmax.xyz
+    port: 80
+    uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /vmess
+  - name: github.com/freefq - 美国  3
+    type: ss
+    server: 168.138.141.222
+    port: '7704'
+    cipher: aes-256-gcm
+    password: 0bfba64e-6640-4286-9fc0-b988253cc94f
+    udp: true
+  - type: vmess
+    name: github.com/freefq - 乌克兰  4
     server: 94.131.97.123
     port: 80
     uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
@@ -41,7 +60,22 @@ proxies:
         host: cz1-vmess.sshmax.xyz
       path: /vmess
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare节点 3
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 5
+    server: 104.31.16.104
+    port: 8080
+    uuid: 3a6752b4-8353-4172-85b1-32202116714d
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: asan3.azad1.tech
+      headers:
+        host: asan3.azad1.tech
+      path: /
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 6
     server: www.crispyrainbow.biz
     port: 8080
     uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -56,7 +90,7 @@ proxies:
         host: www.crispyrainbow.biz
       path: /
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare节点 4
+    name: github.com/freefq - 美国CloudFlare节点 7
     server: 172.67.217.144
     port: 80
     uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
@@ -71,10 +105,10 @@ proxies:
         host: lv1.xv2ray.net
       path: /
   - type: vmess
-    name: github.com/freefq - 乌克兰  5
-    server: be1-vmess.sshmax.xyz
+    name: github.com/freefq - 乌克兰  8
+    server: cz1-vmess.sshmax.xyz
     port: 80
-    uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
     alterId: '0'
     cipher: auto
     network: ws
@@ -83,22 +117,18 @@ proxies:
     ws-opts:
       path: /vmess
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 6
-    server: 104.17.25.1
-    port: '80'
-    uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+    name: github.com/freefq - 台湾省中华电信(HiNet)数据中心 9
+    server: c12.twtc.dynu.net
+    port: 6122
+    uuid: 27c6999b-58aa-48b4-b065-786d2badc074
     alterId: '0'
     cipher: auto
-    network: ws
+    network: tcp
     tls: false
     skip-cert-verify: true
-    ws-opts:
-      host: sgvpn.catnipballs.gay
-      headers:
-        host: sgvpn.catnipballs.gay
-      path: /
+    tcp-opts: {}
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare节点 7
+    name: github.com/freefq - 美国CloudFlare节点 10
     server: s1c.v2.v001sss.xyz
     port: '2082'
     uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -110,7 +140,22 @@ proxies:
     ws-opts:
       path: /
   - type: vmess
-    name: github.com/freefq - 广东省移动 8
+    name: github.com/freefq - 美国弗吉尼亚州阿什本NV NEXT数据中心 11
+    server: 173.245.49.1
+    port: '80'
+    uuid: 4fd4c27a-2b01-4dd6-94ee-a2c465542177
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: 1.digikala.sbs
+      headers:
+        host: 1.digikala.sbs
+      path: /c7z8J4SE3QpsmJZmSRZp3WCDd7QY
+  - type: vmess
+    name: github.com/freefq - 广东省移动 12
     server: data-us-v1.shwjfkw.cn
     port: '20401'
     uuid: b1478e24-4916-3abe-8f17-15931012ecbe
@@ -125,7 +170,22 @@ proxies:
         host: data-us-v1.shwjfkw.cn
       path: /debian
   - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 9
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 13
+    server: 104.17.25.1
+    port: '80'
+    uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: sgvpn.catnipballs.gay
+      headers:
+        host: sgvpn.catnipballs.gay
+      path: /
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 14
     server: 104.17.25.1
     port: 80
     uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
@@ -139,3 +199,18 @@ proxies:
       headers:
         host: lmnyvpn.catnipballs.gay
       path: /
+  - type: vmess
+    name: github.com/freefq - 西班牙  15
+    server: 185.214.103.249
+    port: 8002
+    uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cache-hk-1.cn-db.top
+      headers:
+        host: cache-hk-1.cn-db.top
+      path: /db00

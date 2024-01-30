@@ -1,6 +1,6 @@
 proxies:
   - type: vmess
-    name: 更新于:01-30 04:00 -by BuLink.xyz- 以下节点不计流量
+    name: 更新于:01-30 08:00 -by BuLink.xyz- 以下节点不计流量
     server: 使用前记得更新订阅
     port: '0'
     uuid: 6a3bcc08-9c77-4c02-844b-4a694c4f2fea
@@ -11,9 +11,9 @@ proxies:
     skip-cert-verify: true
     tcp-opts: {}
   - type: vmess
-    name: github.com/freefq - 台湾省新北市中华电信 1
-    server: nb24.ntbq.dynu.net
-    port: 4443
+    name: github.com/freefq - 台湾省新竹市中华电信 1
+    server: b23.ntbq.dynu.net
+    port: 2024
     uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
     alterId: 0
     cipher: auto
@@ -23,17 +23,6 @@ proxies:
     tcp-opts: {}
   - type: vmess
     name: github.com/freefq - 台湾省新竹市中华电信 2
-    server: 114.37.139.157
-    port: 2024
-    uuid: 99e39047-9298-404e-b632-1867f7ed1b37
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: github.com/freefq - 台湾省新竹市中华电信 3
     server: b23.ntbq.dynu.net
     port: 2024
     uuid: 99e39047-9298-404e-b632-1867f7ed1b37
@@ -43,19 +32,30 @@ proxies:
     tls: false
     skip-cert-verify: true
     tcp-opts: {}
+  - name: github.com/freefq - 加拿大魁北克省博阿努瓦OVH数据中心 3
+    type: ss
+    server: 149.56.95.159
+    port: '34539'
+    cipher: chacha20-ietf-poly1305
+    password: Kl3erVrjUy2rC0l9jCsrhX
+    udp: true
   - type: vmess
-    name: github.com/freefq - 台湾省中华电信(HiNet)数据中心 4
-    server: 125.224.144.24
-    port: 6122
-    uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
+    name: github.com/freefq - 美国CloudFlare节点 4
+    server: 172.64.229.1
+    port: '80'
+    uuid: 16764b38-4ab4-4063-86bb-392c680a0482
     alterId: 0
     cipher: auto
-    network: tcp
+    network: ws
     tls: false
     skip-cert-verify: true
-    tcp-opts: {}
+    ws-opts:
+      host: jpli.edge.233.tw
+      headers:
+        host: jpli.edge.233.tw
+      path: /geg/45?ed=2048
   - type: vmess
-    name: github.com/freefq - 台湾省中华电信(HiNet)数据中心 5
+    name: github.com/freefq - 台湾省南投县中华电信 5
     server: c12.twtc.dynu.net
     port: 6122
     uuid: f4595480-44d4-4d55-a37e-a5b1e0ec64d6
@@ -66,30 +66,7 @@ proxies:
     skip-cert-verify: true
     tcp-opts: {}
   - type: vmess
-    name: github.com/freefq - 台湾省新北市中华电信 6
-    server: nb24.ntbq.dynu.net
-    port: 4443
-    uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: github.com/freefq - 乌克兰  7
-    server: 94.131.10.135
-    port: 80
-    uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
-  - type: vmess
-    name: github.com/freefq - 乌克兰  8
+    name: github.com/freefq - 乌克兰  6
     server: pt2-vmess.sshmax.xyz
     port: 80
     uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
@@ -101,7 +78,7 @@ proxies:
     ws-opts:
       path: /vmess
   - type: vmess
-    name: github.com/freefq - 乌克兰  9
+    name: github.com/freefq - 乌克兰  7
     server: be1-vmess.sshmax.xyz
     port: '80'
     uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
@@ -113,35 +90,56 @@ proxies:
     ws-opts:
       path: /vmess
   - type: vmess
-    name: github.com/freefq - 伊拉克  10
-    server: 130.193.166.2
-    port: '80'
-    uuid: 726a0a65-04fd-4531-a96b-5510537737fc
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: saber.serveirc.com
-      headers:
-        host: saber.serveirc.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 11
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    name: github.com/freefq - 乌克兰  8
+    server: 94.131.10.135
+    port: 80
+    uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: www.darkroom.lol
+      path: /vmess
+  - type: vmess
+    name: github.com/freefq - 乌克兰  9
+    server: 94.131.8.32
+    port: 80
+    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /vmess
+  - type: vmess
+    name: github.com/freefq - 乌克兰  10
+    server: 94.131.97.123
+    port: '80'
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cz1-vmess.sshmax.xyz
       headers:
-        host: www.darkroom.lol
-      path: /
+        host: cz1-vmess.sshmax.xyz
+      path: /vmess
+  - type: vmess
+    name: github.com/freefq - 乌克兰  11
+    server: cz1-vmess.sshmax.xyz
+    port: 80
+    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /vmess
   - type: vmess
     name: github.com/freefq - 美国CloudFlare公司CDN节点 12
     server: cfcdn2.sanfencdn9.com
@@ -159,6 +157,21 @@ proxies:
       path: /video/34kKXbLM
   - type: vmess
     name: github.com/freefq - 美国CloudFlare公司CDN节点 13
+    server: www.darkroom.lol
+    port: 8080
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.darkroom.lol
+      headers:
+        host: www.darkroom.lol
+      path: /
+  - type: vmess
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 14
     server: 104.17.25.1
     port: 80
     uuid: 3d668cbe-5464-4a79-aab5-e301b4e0f169
@@ -173,7 +186,7 @@ proxies:
         host: dg.catnipballs.gay
       path: /
   - type: vmess
-    name: github.com/freefq - 台湾省晟崴科技股份有限公司 14
+    name: github.com/freefq - 台湾省晟崴科技股份有限公司 15
     server: 103.118.29.229
     port: '80'
     uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
@@ -188,7 +201,52 @@ proxies:
         host: 103.118.29.229
       path: /5gtocdocao.com
   - type: vmess
-    name: github.com/freefq - 塞浦路斯  15
+    name: github.com/freefq - 北京市移动 16
+    server: gz.daxun.cyou
+    port: '38011'
+    uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
+    alterId: '0'
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts:
+      host: gz.daxun.cyou
+      headers:
+        host: gz.daxun.cyou
+      path: /
+  - type: vmess
+    name: github.com/freefq - 危地马拉  17
+    server: 181.174.80.182
+    port: 80
+    uuid: 9dca0609-a375-4cb4-9641-6246354b8da2
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: mehdi21.servecounterstrike.com
+      headers:
+        host: mehdi21.servecounterstrike.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: github.com/freefq - 利比亚  18
+    server: 197.215.140.235
+    port: 80
+    uuid: 9dca0609-a375-4cb4-9641-6246354b8da2
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: mehdi21.servecounterstrike.com
+      headers:
+        host: mehdi21.servecounterstrike.com
+      path: /@forwardv2ray
+  - type: vmess
+    name: github.com/freefq - 塞浦路斯  19
     server: 195.14.146.81
     port: '80'
     uuid: a692469f-5b96-4f49-9a5b-7eb1e7f11566
@@ -203,19 +261,8 @@ proxies:
         host: mehdi13.servecounterstrike.com
       path: /@forwardv2ray
   - type: vmess
-    name: github.com/freefq - 台湾省新竹市中华电信 16
-    server: b23.ntbq.dynu.net
-    port: 2024
-    uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts: {}
-  - type: vmess
-    name: github.com/freefq - 吉尔吉斯斯坦  17
-    server: 185.48.136.150
+    name: github.com/freefq - 利比亚  20
+    server: 197.215.140.234
     port: 80
     uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
     alterId: 0
@@ -229,29 +276,33 @@ proxies:
         host: xyz33.servecounterstrike.com
       path: /@forwardv2ray
   - type: vmess
-    name: github.com/freefq - 美国加利福尼亚 18
-    server: kr.anhtai4g.me
+    name: github.com/freefq - 台湾省新北市中华电信 21
+    server: nb24.ntbq.dynu.net
+    port: 4443
+    uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - type: vmess
+    name: github.com/freefq - 危地马拉  22
+    server: 181.174.80.182
     port: 80
-    uuid: d48514e2-a4a7-46bd-9095-a227105d2166
+    uuid: 726a0a65-04fd-4531-a96b-5510537737fc
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: lienquan.garena.vn
+      host: saber.serveirc.com
       headers:
-        host: lienquan.garena.vn
-      path: /
-  - name: github.com/freefq - 加拿大  19
-    type: ss
-    server: uydyfkghjrtcsdx.youcansee.cyou
-    port: '20167'
-    cipher: chacha20-ietf-poly1305
-    password: 81416f3c-5b00-4056-8e5f-d7ffdd884bf4
-    udp: true
+        host: saber.serveirc.com
+      path: /@forwardv2ray
   - type: vmess
-    name: github.com/freefq - 亚太地区  20
+    name: github.com/freefq - 亚太地区  23
     server: vn18.4gchill.com
     port: 80
     uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
@@ -266,22 +317,7 @@ proxies:
         host: vn18.4gchill.com
       path: /4gchill.com
   - type: vmess
-    name: github.com/freefq - 伊拉克  21
-    server: 130.193.166.2
-    port: 80
-    uuid: c220f88c-8883-44aa-b66f-f4776a4053d7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: xyz33.servecounterstrike.com
-      headers:
-        host: xyz33.servecounterstrike.com
-      path: /@forwardv2ray
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare公司CDN节点 22
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 24
     server: 104.17.25.2
     port: 80
     uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
@@ -295,33 +331,6 @@ proxies:
       headers:
         host: sgvpn.catnipballs.gay
       path: /
-  - type: vmess
-    name: github.com/freefq - 广东省移动 23
-    server: data-us-v1.shwjfkw.cn
-    port: '20401'
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: data-us-v1.shwjfkw.cn
-      headers:
-        host: data-us-v1.shwjfkw.cn
-      path: /debian
-  - type: vmess
-    name: github.com/freefq - 乌克兰  24
-    server: cz1-vmess.sshmax.xyz
-    port: 80
-    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
   - type: vmess
     name: github.com/freefq - 厄瓜多尔  25
     server: 181.39.11.210
@@ -337,64 +346,49 @@ proxies:
       headers:
         host: saman8888.servecounterstrike.com
       path: /@forwardv2ray
-  - type: vmess
-    name: github.com/freefq - 美国CloudFlare节点 26
-    server: zula.ir
-    port: 443
-    uuid: 20862c9f-2dfa-4a01-9734-7a139bf92a3c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      host: se1-vmess.sshmax.xyz
-      headers:
-        host: se1-vmess.sshmax.xyz
-      path: /vmess
-  - type: vmess
-    name: github.com/freefq - 危地马拉  27
-    server: 181.174.80.182
-    port: 80
-    uuid: 9dca0609-a375-4cb4-9641-6246354b8da2
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: mehdi21.servecounterstrike.com
-      headers:
-        host: mehdi21.servecounterstrike.com
-      path: /@forwardv2ray
-  - name: github.com/freefq - 加拿大魁北克省博阿努瓦OVH数据中心 28
+  - name: github.com/freefq - 加拿大  26
     type: ss
-    server: 149.56.95.159
-    port: '34539'
+    server: uydyfkghjrtcsdx.youcansee.cyou
+    port: '20167'
     cipher: chacha20-ietf-poly1305
-    password: Kl3erVrjUy2rC0l9jCsrhX
+    password: 81416f3c-5b00-4056-8e5f-d7ffdd884bf4
     udp: true
   - type: vmess
-    name: github.com/freefq - 乌克兰  29
-    server: 94.131.97.123
-    port: '80'
-    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-    alterId: '0'
+    name: github.com/freefq - 广东省移动 27
+    server: data-us-v1.shwjfkw.cn
+    port: '20401'
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: cz1-vmess.sshmax.xyz
+      host: data-us-v1.shwjfkw.cn
       headers:
-        host: cz1-vmess.sshmax.xyz
-      path: /vmess
+        host: data-us-v1.shwjfkw.cn
+      path: /debian
   - type: vmess
-    name: github.com/freefq - 危地马拉  30
-    server: 181.174.80.182
-    port: 80
-    uuid: 726a0a65-04fd-4531-a96b-5510537737fc
+    name: github.com/freefq - 美国CloudFlare公司CDN节点 28
+    server: 108.162.194.165
+    port: '80'
+    uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
     alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: cghyxmvhjp3.zvhdeaof.xyz
+      headers:
+        host: cghyxmvhjp3.zvhdeaof.xyz
+      path: /video/fz2DANLn
+  - type: vmess
+    name: github.com/freefq - 伊拉克  29
+    server: 130.193.166.2
+    port: '80'
+    uuid: 726a0a65-04fd-4531-a96b-5510537737fc
+    alterId: '0'
     cipher: auto
     network: ws
     tls: false

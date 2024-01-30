@@ -1,4 +1,27 @@
 proxies:
+  - name: 广东省广州市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '26601'
+    cipher: chacha20-ietf-poly1305
+    password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
+    udp: true
+  - name: 美国+Amazon数据中心
+    type: ss
+    server: 13.41.145.115
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: u17T3BvpYaaiuW2c
+    udp: true
+  - name: 美国+CloudFlare节点
+    type: trojan
+    server: 162.159.152.2
+    port: '443'
+    password: qnmD5GL6ri
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
     server: 104.20.231.30
@@ -15,19 +38,53 @@ proxies:
         host: my1.tooters.ir
       path: /?ed=2048
   - type: vmess
-    name: 台湾省台北市 中华电信
-    server: 61.228.160.39
-    port: '4443'
-    uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
-    alterId: 0
+    name: 乌克兰 V2CROSS.COM
+    server: 94.131.8.32
+    port: 2086
+    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+    alterId: '0'
     cipher: auto
-    network: tcp
+    network: ws
     tls: false
     skip-cert-verify: true
-    tcp-opts: {}
+    ws-opts:
+      path: /vmess
+  - type: vmess
+    name: 乌克兰 V2CROSS.COM
+    server: 94.131.8.32
+    port: 8880
+    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /vmess
+  - type: vmess
+    name: 乌克兰 V2CROSS.COM
+    server: 94.131.10.135
+    port: 80
+    uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /vmess
+  - name: 北美地区+V2CROSS.COM
+    type: trojan
+    server: 23.142.200.175
+    port: '443'
+    password: 27876_t7d7f4e3f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: www.crispyrainbow.biz
+    server: www.coldstone.club
     port: 8080
     uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
@@ -38,83 +95,56 @@ proxies:
     ws-opts:
       path: /
   - type: vmess
-    name: 美国 V2CROSS.COM
-    server: pitcairn.ednovas.org
-    port: 443
-    uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
-    alterId: '0'
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts:
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 172.67.212.171
-    port: '8080'
-    uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: eu5.openxai.link
-      headers:
-        host: eu5.openxai.link
-      path: /?ed=2048
-  - name: 巴西圣保罗+CloudFlare节点
-    type: trojan
-    server: 188.114.98.0
-    port: '443'
-    password: 01596265-168b-46a7-bcb7-25662c7a9546
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 台湾省新竹市 中华电信
-    server: 114.37.132.46
-    port: 2024
-    uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
-    alterId: '0'
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts:
-      path: /
-  - type: vmess
     name: 乌克兰 V2CROSS.COM
-    server: 94.131.8.32
-    port: '8880'
-    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-    alterId: 0
+    server: be1-vmess.sshmax.xyz
+    port: '80'
+    uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+    alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
+      host: be1-vmess.sshmax.xyz
+      headers:
+        host: be1-vmess.sshmax.xyz
       path: /vmess
   - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.17.25.1
-    port: '80'
-    uuid: aa8edc9c-978a-4f09-906f-a2668751e935
+    name: 俄罗斯 Rubtsovsk Branch of Altai State University
+    server: 212.192.12.231
+    port: 80
+    uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: usnatvpn.catnipballs.gay
+      host: www.apple.com
       headers:
-        host: usnatvpn.catnipballs.gay
+        host: www.apple.com
       path: /
   - type: vmess
+    name: 台湾省台北市 中华电信
+    server: 61.228.160.39
+    port: '4443'
+    uuid: 7baddf37-f8bb-4744-bd9d-88d42dda603a
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    skip-cert-verify: true
+    tcp-opts: {}
+  - name: 瑞典+V2CROSS.COM
+    type: ss
+    server: 167.88.61.175
+    port: '8080'
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+    udp: true
+  - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.23.176
+    server: www.crispyrainbow.biz
     port: 8080
     uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
     alterId: 0
@@ -127,91 +157,140 @@ proxies:
       headers:
         host: www.crispyrainbow.biz
       path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: www.blueberrywindow.online
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-  - name: 北美地区+V2CROSS.COM
-    type: trojan
-    server: 23.142.200.175
-    port: '443'
-    password: 27876_t7d7f4e3f
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: 94.131.8.32
-    port: '2095'
-    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: 94.131.8.32
-    port: '2086'
-    uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
-  - type: vmess
-    name: 乌克兰 V2CROSS.COM
-    server: cz1-vmess.sshmax.xyz
-    port: 80
-    uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      path: /vmess
-  - type: vmess
-    name: 北京市 移动
-    server: gz.daxun.cyou
-    port: '26040'
-    uuid: ac5852df-8caf-4d86-8c77-93a7092f66f1
-    alterId: '0'
-    cipher: auto
-    network: tcp
-    tls: false
-    skip-cert-verify: true
-    tcp-opts:
-      host: gz.daxun.cyou
-      headers:
-        host: gz.daxun.cyou
-      path: /
   - name: 美国+CloudFlare节点
     type: trojan
-    server: 104.21.62.76
-    port: '2053'
-    password: mJR8UynY3kqfQYg_ps1lhw
+    server: 162.159.153.2
+    port: '443'
+    password: qnmD5GL6ri
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 台湾省台北市+中华电信
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.19.234.82
+    port: 2095
+    uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: us82pRzxDMb.fzbqfrse.xyz
+      headers:
+        host: us82pRzxDMb.fzbqfrse.xyz
+      path: /video/qYZue4zaWS
+  - type: vmess
+    name: 亚太地区 V2CROSS.COM
+    server: vn18.4gchill.com
+    port: '80'
+    uuid: 67d5296e-a2ee-4a9f-89e6-365da540c55d
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: vn18.4gchill.com
+      headers:
+        host: vn18.4gchill.com
+      path: /4gchill.com
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 162.159.200.6
+    port: 80
+    uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: er3.889611.com
+      headers:
+        host: er3.889611.com
+      path: /
+  - name: 瑞典+V2CROSS.COM
     type: ss
-    server: b13.ntbq.dynu.net
-    port: '7773'
-    cipher: chacha20-ietf-poly1305
-    password: 99e39047-9298-404e-b632-1867f7ed1b37
+    server: 167.88.61.175
+    port: '6379'
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
     udp: true
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cf.openxai.link
+    port: '8080'
+    uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: eu3.openxai.link
+      headers:
+        host: eu3.openxai.link
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.18.15.148
+    port: 80
+    uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: ca3.889611.com
+      headers:
+        host: ca3.889611.com
+      path: /
+  - name: 亚太地区+V2CROSS.COM
+    type: trojan
+    server: 103.149.87.45
+    port: '443'
+    password: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 广东省 移动
+    server: data-us-v1.shwjfkw.cn
+    port: '20401'
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: data-us-v1.shwjfkw.cn
+      headers:
+        host: data-us-v1.shwjfkw.cn
+      path: /debian
+  - name: 瑞典+V2CROSS.COM
+    type: ss
+    server: 167.88.61.175
+    port: '3306'
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    udp: true
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.17.25.2
+    port: 80
+    uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: sgvpn.catnipballs.gay
+      headers:
+        host: sgvpn.catnipballs.gay
+      path: /

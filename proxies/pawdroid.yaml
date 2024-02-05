@@ -1,236 +1,105 @@
 proxies:
+  - name: 美国+Amazon数据中心
+    type: ss
+    server: java.ct.arvancode.eu.org
+    port: '443'
+    cipher: chacha20-ietf-poly1305
+    password: W74XFALLLuw6m5IA
+    udp: true
+  - name: 美国+Akamai科技公司CDN网络节点
+    type: trojan
+    server: 172.232.217.155
+    port: '443'
+    password: a8ffca96-a47d-4fa4-a62d-6625b5346aa4
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - name: 美国+Xerox
     type: trojan
-    server: 13.51.63.32
+    server: 13.51.153.172
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: 香港+电讯盈科有限公司
-    type: trojan
-    server: 220.246.88.197
-    port: '443'
-    password: 6b55d668206e4a91a63d437d22d3936d
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: server33.beheshtbaneh.com
-    port: '8880'
-    uuid: 0873fffc-414f-4140-a155-672129fd9a1d
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: server33.beheshtbaneh.com
-      headers:
-        host: server33.beheshtbaneh.com
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: www.darkroom.lol
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: www.darkroom.lol
-      headers:
-        host: www.darkroom.lol
-      path: /
-  - name: 美国+俄勒冈州波特兰Amazon数据中心
-    type: trojan
-    server: 34.220.0.65
-    port: '16870'
-    password: gyJ8UFbbst8l
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 美国+俄亥俄州都柏林Amazon数据中心
-    type: trojan
-    server: 18.221.73.34
-    port: '16904'
-    password: qMEMWctKCZhR
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 美国+CloudFlare公司CDN节点(shopify)
-    type: trojan
-    server: 23.227.39.166
-    port: '443'
-    password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: server20.beheshtbaneh.com
+    server: server26.beheshtbaneh.com
     port: 8880
-    uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+    uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: server20.beheshtbaneh.com
-      headers:
-        host: server20.beheshtbaneh.com
       path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.82.183
-    port: '8880'
-    uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
+  - name: 美国+Amazon数据中心
+    type: trojan
+    server: 18.175.4.99
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
-    ws-opts:
-      host: server20.beheshtbaneh.com
-      headers:
-        host: server20.beheshtbaneh.com
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.83.10
-    port: '8080'
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: www.coldstone.club
-      headers:
-        host: www.coldstone.club
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.94.99
-    port: 8080
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: www.blueberrywindow.online
-      headers:
-        host: www.blueberrywindow.online
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.20.231.30
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: my1.tooters.ir
-      headers:
-        host: my1.tooters.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.18.126.211
-    port: 2052
-    uuid: ce1b46f7-fd89-4646-a968-206d65245aba
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: us3AJ8biuQx.fzbqfrse.xyz
-      headers:
-        host: us3AJ8biuQx.fzbqfrse.xyz
-      path: /video/QXjZG5u4F2
-  - name: 广东省江门市+移动
+    alpn:
+      - h2
+      - http/1.1
+  - name: 美国+Amazon数据中心
     type: ss
-    server: service.ouluyun9803.com
-    port: '26667'
+    server: v1.arvancode.eu.org
+    port: '443'
     cipher: chacha20-ietf-poly1305
-    password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
+    password: mps3FwmDjLrWaOVg
     udp: true
   - type: vmess
     name: 美国 CloudFlare节点
-    server: server33.beheshtbaneh.com
-    port: 8880
-    uuid: 0873fffc-414f-4140-a155-672129fd9a1d
+    server: 104.17.25.1
+    port: 80
+    uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: server33.beheshtbaneh.com
+      host: kr1.ljyyds.top
       headers:
-        host: server33.beheshtbaneh.com
+        host: kr1.ljyyds.top
       path: /
+  - name: 英国+伦敦Amazon数据中心
+    type: trojan
+    server: 18.130.102.204
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.20.231.30
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    name: 西班牙 V2CROSS.COM
+    server: 185.214.103.249
+    port: '8002'
+    uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: my1.tooters.ir
+      host: cache-hk-1.cn-db.top
       headers:
-        host: my1.tooters.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: server32.beheshtbaneh.com
-    port: 8880
-    uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
+        host: cache-hk-1.cn-db.top
+      path: /db00
+  - name: 江苏省+移动
+    type: trojan
+    server: east.eeeeeef998.buzz
+    port: '15006'
+    password: 414dff55-922a-4dc8-b5d3-b6517942b25a
     skip-cert-verify: true
-    ws-opts:
-      host: server32.beheshtbaneh.com
-      headers:
-        host: server32.beheshtbaneh.com
-      path: /
-  - type: vmess
-    name: 俄罗斯 V2CROSS.COM
-    server: 92.38.168.5
-    port: 443
-    uuid: 29a47c42-6c3a-46d0-a184-2c1a6ea192ac
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      host: kosar37.sytes.net
-      headers:
-        host: kosar37.sytes.net
-      path: /@forwardv2ray
+    alpn:
+      - h2
+      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
     server: server26.beheshtbaneh.com
@@ -246,19 +115,96 @@ proxies:
       headers:
         host: server26.beheshtbaneh.com
       path: /
-  - name: 英国+伦敦Amazon数据中心
-    type: ss
-    server: jseyu.arvancode.eu.Org
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: Bog0ELmMM9DSxDdQ
-    udp: true
-  - name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+  - name: 爱尔兰+都柏林Amazon数据中心
     type: trojan
-    server: 35.176.61.158
-    port: '16910'
-    password: yICj51cFa0cc
+    server: 52.49.105.158
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: www.blueberrywindow.online
+    port: '8080'
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.blueberrywindow.online
+      headers:
+        host: www.blueberrywindow.online
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: government.se
+    port: 443
+    uuid: 8b3c9d7b-2099-46d4-aa98-d237068ff38a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: tt04.77678h.tk
+      headers:
+        host: tt04.77678h.tk
+      path: /vmess?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.19.23.194
+    port: 2052
+    uuid: ce1b46f7-fd89-4646-a968-206d65245aba
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: us3AJ8biuQx.fzbqfrse.xyz
+      headers:
+        host: us3AJ8biuQx.fzbqfrse.xyz
+      path: /video/QXjZG5u4F2
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.83.10
+    port: '8080'
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.coldstone.club
+      headers:
+        host: www.coldstone.club
+      path: /
+  - name: 美国+CloudFlare公司CDN节点(shopify)
+    type: trojan
+    server: 23.227.38.46
+    port: '443'
+    password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: cf.openxai.link
+    port: '8080'
+    uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: eu2.openxai.link
+      headers:
+        host: eu2.openxai.link
+      path: /?ed=2048

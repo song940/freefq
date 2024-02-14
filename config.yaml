@@ -228,8 +228,19 @@ rule-providers:
 
 proxy-providers:
   freefq:
-    type: file
+    type: http
     path: proxies/freefq.yaml
+     url: https://rawgit.lsong.org/song940/freefq/master/proxies/freefq.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  yebekhe:
+    type: http
+    path: proxies/yebekhe.yaml
+     url: https://rawgit.lsong.org/song940/freefq/master/proxies/yebekhe.yaml
     interval: 3600
     health-check:
       enable: true
@@ -241,6 +252,7 @@ proxy-groups:
     type: url-test
     use:
       - freefq
+      - yebekhe
     url: "http://www.gstatic.com/generate_204"
     interval: 120
 

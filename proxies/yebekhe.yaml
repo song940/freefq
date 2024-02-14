@@ -62,56 +62,11 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
-    server: 54.74.114.84
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣2️⃣
-    type: trojan
-    server: 52.210.141.144
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣
-    type: trojan
-    server: 18.135.210.95
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣4️⃣
-    type: trojan
-    server: 3.9.149.107
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣5️⃣
-    type: trojan
-    server: 15.188.99.133
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣6️⃣
-    type: trojan
-    server: 13.37.88.128
-    port: '22222'
-    password: telegram-id-directvpn
+    server: hongkong.followerpanell.ir
+    port: '8443'
+    password: e40c26851093180
     skip-cert-verify: true
     alpn:
       - h2
@@ -121,6 +76,33 @@ proxies:
     server: cdn13.cdn2cdn.com
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣
+    type: trojan
+    server: 104.19.171.3
+    port: '443'
+    password: f0eb8c92ce8946aaba856569cff1a16b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣
+    type: trojan
+    server: 198.41.220.20
+    port: '443'
+    password: e8105dfd24414268b6c7652c63731097
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | US🇺🇸 | 0️⃣3️⃣
+    type: trojan
+    server: 89.116.180.179
+    port: '443'
+    password: d2698cf9-c47e-455c-8384-12e642cbba15
     skip-cert-verify: true
     alpn:
       - h2

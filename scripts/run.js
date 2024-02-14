@@ -65,7 +65,6 @@ registerHandler('vmess', (data, link) => {
 
 registerHandler('trojan', (_, link) => {
   const data = parseURL(link);
-  console.log(link, data);
   return {
     name: data.hash,
     type: data.protocol,
@@ -110,10 +109,12 @@ async function convert_sub(content) {
 
 async function main() {
   for (const [name, url] of Object.entries(pkg.links)) {
-    const response = await fetch(url)
+    const response = await fetch(url);
     const content = Buffer.from(await response.text(), 'base64').toString();
     const proxies = await convert_sub(content);
-    writeYaml(`./proxies/${name}.yaml`, { proxies });
+    writeYaml(`./proxies/${name}.yaml`, { 
+      proxies: proxies.filter(Boolean) 
+    });
   }
 }
 

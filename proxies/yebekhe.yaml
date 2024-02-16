@@ -1,5 +1,23 @@
 proxies:
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | SG🇸🇬 | 0️⃣1️⃣
+    type: trojan
+    server: sg02.bsawc.shop
+    port: '51652'
+    password: 6a407a94-3fda-4946-a48c-2aa1ced31687
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣
+    type: trojan
+    server: ru01.bsawc.shop
+    port: '30005'
+    password: 6a407a94-3fda-4946-a48c-2aa1ced31687
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | FR🇫🇷 | 0️⃣4️⃣
     type: trojan
     server: fr1.test3.net
     port: '443'
@@ -8,7 +26,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | DE🇩🇪 | 0️⃣5️⃣
     type: trojan
     server: de1.test3.net
     port: '443'
@@ -17,7 +35,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣6️⃣
     type: trojan
     server: ca1.test3.net
     port: '443'
@@ -157,6 +175,15 @@ proxies:
     server: 162.159.1.94
     port: '443'
     password: 7397ca10-3fa4-459c-9f58-330800df292b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣
+    type: trojan
+    server: hongkong.followerpanell.ir
+    port: '8443'
+    password: e40c26851093180
     skip-cert-verify: true
     alpn:
       - h2

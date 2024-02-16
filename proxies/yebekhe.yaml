@@ -1,14 +1,5 @@
 proxies:
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | SG🇸🇬 | 0️⃣1️⃣
-    type: trojan
-    server: sg02.bsawc.shop
-    port: '51652'
-    password: 6a407a94-3fda-4946-a48c-2aa1ced31687
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | RU🇷🇺 | 0️⃣1️⃣
     type: trojan
     server: ru01.bsawc.shop
     port: '30005'
@@ -44,7 +35,25 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 52.28.131.139
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣
+    type: trojan
+    server: 13.50.28.110
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣
     type: trojan
     server: 51.21.103.98
     port: '22222'
@@ -53,7 +62,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣4️⃣
     type: trojan
     server: 52.213.216.209
     port: '22222'
@@ -62,7 +71,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣5️⃣
     type: trojan
     server: 54.155.42.21
     port: '22222'
@@ -71,7 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣6️⃣
     type: trojan
     server: 52.56.59.250
     port: '22222'
@@ -80,7 +89,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣7️⃣
     type: trojan
     server: 18.169.212.197
     port: '22222'
@@ -89,20 +98,20 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
-    server: 52.47.53.178
+    server: 15.157.8.36
     port: '22222'
-    password: telegram-id-privatevpns
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣7️⃣
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣
     type: trojan
-    server: 15.188.170.29
+    server: 3.99.74.203
     port: '22222'
-    password: telegram-id-privatevpns
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
@@ -112,15 +121,6 @@ proxies:
     server: 162.159.1.94
     port: '443'
     password: 7397ca10-3fa4-459c-9f58-330800df292b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣
-    type: trojan
-    server: hongkong.followerpanell.ir
-    port: '8443'
-    password: e40c26851093180
     skip-cert-verify: true
     alpn:
       - h2
@@ -139,60 +139,6 @@ proxies:
     server: cdn13.cdn2cdn.com
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣
-    type: trojan
-    server: backcn.rmanluo.top
-    port: '443'
-    password: 469ed42e-2905-3aec-a622-e8dae2100813
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣
-    type: trojan
-    server: euro.nextloink.com
-    port: '16217'
-    password: 95af4fd9-3b0a-3af6-8836-982739fed565
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | SG🇸🇬 | 0️⃣3️⃣
-    type: trojan
-    server: 5.44.249.42
-    port: '3306'
-    password: d4e41ff772c7fd45
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | JP🇯🇵 | 0️⃣4️⃣
-    type: trojan
-    server: kh.mjt000.com
-    port: '443'
-    password: 0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | FR🇫🇷 | 0️⃣5️⃣
-    type: trojan
-    server: frt2.sshocean.net
-    port: '443'
-    password: b3902e81-6260-4932-bcc9-708445fe40b4
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | HK🇭🇰 | 0️⃣6️⃣
-    type: trojan
-    server: sk01.trojanyyds.xyz
-    port: '443'
-    password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8
     skip-cert-verify: true
     alpn:
       - h2

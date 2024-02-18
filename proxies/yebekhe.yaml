@@ -62,7 +62,16 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣
+    type: trojan
+    server: 3.135.106.37
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣
     type: trojan
     server: 3.96.13.197
     port: '22222'
@@ -71,7 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣3️⃣
     type: trojan
     server: 35.182.88.186
     port: '22222'
@@ -121,6 +130,15 @@ proxies:
     server: cdn13.cdn2cdn.com
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | RU🇷🇺 | 0️⃣1️⃣
+    type: trojan
+    server: 185.22.154.254
+    port: '30005'
+    password: 5661d5ef-54cd-4e66-b30c-05e5de1edec6
     skip-cert-verify: true
     alpn:
       - h2

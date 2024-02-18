@@ -116,11 +116,29 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: رایگان | TROJAN | @V2RayTz | CA🇨🇦 | 0️⃣1️⃣
+    type: trojan
+    server: 3.96.13.197
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - name: رایگان | TROJAN | @fnet00 | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
     server: cdn13.cdn2cdn.com
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | AE🇦🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 139.185.48.248
+    port: '37902'
+    password: 46fac810-0332-471a-a074-bdca7824211e
     skip-cert-verify: true
     alpn:
       - h2

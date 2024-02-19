@@ -170,3 +170,21 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣
+    type: trojan
+    server: 167.99.181.140
+    port: '27352'
+    password: f8d8882f-6b0f-4790-b951-fe6704ed4a92
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | RU🇷🇺 | 0️⃣2️⃣
+    type: trojan
+    server: 185.22.154.254
+    port: '30005'
+    password: f8d8882f-6b0f-4790-b951-fe6704ed4a92
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1

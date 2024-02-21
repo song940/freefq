@@ -127,9 +127,36 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣1️⃣
     type: trojan
+    server: ni.mjt000.com
+    port: '443'
+    password: ccfd483b-a2c6-49be-8047-115ffcc073ce
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣
+    type: trojan
     server: ru.mjt000.com
     port: '443'
     password: ccfd483b-a2c6-49be-8047-115ffcc073ce
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣3️⃣
+    type: trojan
+    server: kh.mjt000.com
+    port: '443'
+    password: ccfd483b-a2c6-49be-8047-115ffcc073ce
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | SE🇸🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 51.20.228.3
+    port: '22222'
+    password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2

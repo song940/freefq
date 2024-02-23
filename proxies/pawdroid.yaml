@@ -1,10 +1,10 @@
 proxies:
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.71
+    server: 104.21.225.66
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
+    alterId: '0'
     cipher: auto
     network: ws
     tls: false
@@ -16,198 +16,39 @@ proxies:
       path: /?ed=2048&Telegram🇨🇳@WangCai_8
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 108.162.195.64
-    port: 8080
-    uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: larger-marketing-amounts-skin.trycloudflare.com
-      headers:
-        host: larger-marketing-amounts-skin.trycloudflare.com
-      path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.232
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.87
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    server: s1c.v2.v001sss.xyz
+    port: 2082
+    uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: a.prapt5.ir
+      host: s1c.v2.v001sss.xyz
       headers:
-        host: a.prapt5.ir
+        host: s1c.v2.v001sss.xyz
       path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.124
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳@WangCai_8
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.151
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 日本+V2CROSS.COM
+  - name: 美国+Amazon数据中心
     type: trojan
-    server: 43.206.229.202
-    port: '17124'
-    password: r2k44jrkyWIG
+    server: 13.39.233.29
+    port: '17254'
+    password: DMLOPLmixrmC
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.156
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.233
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳 @WangCai08
-  - name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-    type: trojan
-    server: 35.177.241.13
-    port: '17114'
-    password: nsy5wEyGsaoU
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.163
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.158
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.96
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 190.93.245.180
-    port: 8080
-    uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: larger-marketing-amounts-skin.trycloudflare.com
-      headers:
-        host: larger-marketing-amounts-skin.trycloudflare.com
-      path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
-  - name: 英国+伦敦Amazon数据中心
+  - name: 美国+麻省理工学院
     type: ss
-    server: series-a1.samanehha.co
+    server: 18.133.137.251
     port: '443'
     cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
+    password: u17T3BvpYaaiuW2c
     udp: true
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.73
-    port: '80'
+    server: 104.21.225.95
+    port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
     cipher: auto
@@ -218,31 +59,82 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+      path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 162.159.134.23
-    port: '8080'
-    uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+    server: 104.21.225.49
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: configured-creek-relating-theater.trycloudflare.com
+      host: a.prapt5.ir
       headers:
-        host: configured-creek-relating-theater.trycloudflare.com
-      path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
-  - name: 美国+惠普HP
-    type: trojan
-    server: 15.157.171.188
-    port: '22222'
-    password: telegram-id-directvpn
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.92
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
     skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.215
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.235.57
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: us65.netfilx.live
+    port: '80'
+    uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: us65.netfilx.live
+      headers:
+        host: us65.netfilx.live
+      path: /
   - name: 美国+Xerox
     type: trojan
     server: 13.51.53.229
@@ -254,8 +146,8 @@ proxies:
       - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.229.29
-    port: 80
+    server: 104.21.225.98
+    port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
     cipher: auto
@@ -266,163 +158,34 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
-      path: /
+      path: /?ed=2048&Telegram🇨🇳@WangCai_8
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.24.208.37
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: my1.tooters.ir
-      headers:
-        host: my1.tooters.ir
-      path: /?ed=2048
-  - name: 美国+俄勒冈州波特兰Amazon数据中心
-    type: trojan
-    server: 52.12.9.174
-    port: '17151'
-    password: PFClsuknbIZl
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.213
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.5
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: cf.openxai.link
-    port: '8080'
-    uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: eu3.openxai.link
-      headers:
-        host: eu3.openxai.link
-      path: /?ed=2048
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 172.67.136.12
-    port: '8080'
-    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    server: 198.41.205.138
+    port: 8080
+    uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
     alterId: '0'
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: www.ywnouvbale.biz
+      host: larger-marketing-amounts-skin.trycloudflare.com
       headers:
-        host: www.ywnouvbale.biz
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.131
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 爱尔兰+都柏林Amazon数据中心
+        host: larger-marketing-amounts-skin.trycloudflare.com
+      path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+  - name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
     type: trojan
-    server: 34.255.92.82
-    port: '22222'
-    password: telegram-id-directvpn
+    server: 35.177.241.13
+    port: '17253'
+    password: HtLxyUXif88w
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.220
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.217
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.2
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.246
+    server: 104.21.225.47
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -434,10 +197,10 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
+      path: /?ed=2048&Telegram🇨🇳 @WangCai08
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.167
+    server: 104.21.225.82
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -449,97 +212,10 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
-      path: '/?ed=2048&Telegram🇨🇳 '
-  - name: 美国+俄亥俄州都柏林Amazon数据中心
-    type: trojan
-    server: 18.217.92.108
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
+      path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.228
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 141.101.114.93
-    port: 8080
-    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      headers:
-        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-  - name: 芬兰+赫尔辛基Hetzner数据中心
-    type: trojan
-    server: dl.richmondvaaadom.org
-    port: '443'
-    password: 8n2KOKmyfS
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.9
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.31
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - name: 美国+Amazon+EC2服务器
-    type: trojan
-    server: 3.64.188.175
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.166
+    server: 104.21.225.182
     port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -567,130 +243,9 @@ proxies:
       headers:
         host: a.prapt5.ir
       path: /?ed=2048&Telegram🇨🇳
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 104.21.4.113
-    port: '2096'
-    password: 8dff76ef-4b6f-42e0-b21e-28dfaab03b53
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.15
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳 @WangCai08
-  - type: vmess
-    name: 美国 CloudFlare
-    server: 162.159.26.135
-    port: '8080'
-    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      headers:
-        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.195
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: '/?ed=2048&Telegram🇨🇳 '
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.197
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 巴西圣保罗 CloudFlare节点
-    server: 188.114.96.94
-    port: 8080
-    uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-      headers:
-        host: pcs-referenced-camera-concerns.trycloudflare.com
-      path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.226.14
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.92
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 英国+伦敦Amazon数据中心
-    type: ss
-    server: v1.arvancode.eu.org
-    port: '443'
-    cipher: chacha20-ietf-poly1305
-    password: mps3FwmDjLrWaOVg
-    udp: true
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.119
+    server: 104.21.225.175
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: '0'
@@ -703,289 +258,6 @@ proxies:
       headers:
         host: a.prapt5.ir
       path: /?ed=2048&Telegram🇨🇳
-  - type: vmess
-    name: 亚太地区 V2CROSS.COM
-    server: hn5.fuzzypn.me
-    port: 80
-    uuid: 7a9eab7e-f9be-4b4d-8cbb-eaaee62d9eee
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    sni: lienquan.garena.vn
-    ws-opts:
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.234.74
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 新加坡+亚马逊(Amazon)公司数据中心
-    type: trojan
-    server: 54.255.213.170
-    port: '17117'
-    password: cI4xW4ORimac
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.130
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.142
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳 @WangCai_8
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.238.90
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - name: 美国+惠普公司
-    type: trojan
-    server: 15.237.254.158
-    port: '17092'
-    password: hwblUWbk4ufQ
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.125
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 198.41.220.6
-    port: 8080
-    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      headers:
-        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.231.58
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.238.94
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 新加坡+Amazon数据中心
-    type: trojan
-    server: 13.212.39.194
-    port: '17145'
-    password: N5TlYpUMGRKy
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.7
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 美国+Amazon+EC2服务器
-    type: trojan
-    server: 3.147.193.134
-    port: '17146'
-    password: ZOpd3KJhB66u
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.224.22
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - type: vmess
-    name: 美国弗吉尼亚州阿什本 CloudFlare节点
-    server: 173.245.49.249
-    port: 8080
-    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      headers:
-        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.223
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 172.67.132.6
-    port: '2096'
-    password: 8dff76ef-4b6f-42e0-b21e-28dfaab03b53
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 日本 东京阿里云
-    server: 47.245.40.161
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: my1.tooters.ir
-      headers:
-        host: my1.tooters.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.224.0
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.236.62
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
   - type: vmess
     name: 美国 CloudFlare节点
     server: 104.21.225.11
@@ -1003,7 +275,7 @@ proxies:
       path: /?ed=2048&Telegram🇨🇳 @WangCai08
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.233.48
+    server: 104.21.231.56
     port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -1018,8 +290,83 @@ proxies:
       path: /?ed=2048
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.232.40
+    server: 104.21.227.15
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 162.159.134.23
+    port: 8080
+    uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: configured-creek-relating-theater.trycloudflare.com
+      headers:
+        host: configured-creek-relating-theater.trycloudflare.com
+      path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.90
     port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.86
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.16.77.74
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: my1.tooters.ir
+      headers:
+        host: my1.tooters.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.238.72
+    port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
     cipher: auto
@@ -1032,20 +379,20 @@ proxies:
         host: a.prapt5.ir
       path: /?ed=2048
   - type: vmess
-    name: 湖北省 移动(全省通用)
-    server: t.cnmjcn.cyou
-    port: '16645'
-    uuid: c99074bd-bacd-48b5-9561-da069c481602
-    alterId: '0'
+    name: 美国 CloudFlare节点
+    server: 104.21.225.29
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
+      host: a.prapt5.ir
       headers:
-        host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
-      path: /
+        host: a.prapt5.ir
+      path: /?ed=2048
   - name: 爱尔兰+V2CROSS.COM
     type: trojan
     server: 63.33.232.93
@@ -1057,52 +404,97 @@ proxies:
       - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 198.41.204.209
+    server: 104.21.229.29
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 Fastly全球Anycast节点
+    server: fastly.com
+    port: '80'
+    uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: nmsl.kp
+      headers:
+        host: nmsl.kp
+      path: /aries?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.180
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳@WangCai08
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.68
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.231.58
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国弗吉尼亚州阿什本 CloudFlare节点
+    server: 173.245.49.54
     port: 8080
-    uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
+    uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
     alterId: 0
     cipher: auto
     network: ws
     tls: false
     skip-cert-verify: true
     ws-opts:
-      host: nest-emily-healing-h.trycloudflare.com
+      host: larger-marketing-amounts-skin.trycloudflare.com
       headers:
-        host: nest-emily-healing-h.trycloudflare.com
-      path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
+        host: larger-marketing-amounts-skin.trycloudflare.com
+      path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.233.66
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.109
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: '/?ed=2048&Telegram🇨🇳 '
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.232.60
+    server: 104.21.231.36
     port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -1117,7 +509,22 @@ proxies:
       path: /?ed=2048
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.229.48
+    server: 104.21.227.18
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.227.19
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: '0'
@@ -1132,7 +539,37 @@ proxies:
       path: /?ed=2048
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.78
+    server: 162.159.137.31
+    port: 8080
+    uuid: ac750859-79e7-4507-ba93-e92584ac49e3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: per-essex-patterns-bowling.trycloudflare.com
+      headers:
+        host: per-essex-patterns-bowling.trycloudflare.com
+      path: ac750859-79e7-4507-ba93-e92584ac49e3-vm
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: vip2323.cfd
+    port: 443
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: vip2323.cfd
+      headers:
+        host: vip2323.cfd
+      path: /linkvws
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.238.90
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: '0'
@@ -1144,13 +581,28 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 V2CROSS.COM
+    server: 137.175.40.13
+    port: '37000'
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    ws-opts:
+      host: www.75596620.xyz
+      headers:
+        host: www.75596620.xyz
+      path: /path/271624282113
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.182
-    port: '80'
+    server: 104.21.225.100
+    port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
@@ -1175,18 +627,24 @@ proxies:
       headers:
         host: a.prapt5.ir
       path: /
-  - name: 芬兰+赫尔辛基Hetzner数据中心
-    type: trojan
-    server: 95.216.199.148
-    port: '443'
-    password: 8n2KOKmyfS
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.251
+    server: 104.21.225.54
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳 @WangCai08
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.235
     port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -1201,7 +659,191 @@ proxies:
       path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.226.11
+    server: 104.21.225.124
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.115
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: www.ywnouvbale.biz
+    port: '8080'
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: www.ywnouvbale.biz
+      headers:
+        host: www.ywnouvbale.biz
+      path: /
+  - name: 广东省江门市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '21003'
+    cipher: chacha20-ietf-poly1305
+    password: cfa17a0d-5e7d-4871-976e-f116e0818123
+    udp: true
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.111
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.224.3
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.79
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - name: 新加坡+Amazon数据中心
+    type: trojan
+    server: 13.250.7.17
+    port: '17263'
+    password: mvBvlLSgbQp2
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.137
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - name: 德国+黑森州法兰克福Amazon数据中心
+    type: trojan
+    server: 35.156.35.235
+    port: '17245'
+    password: Ewmk6sOduFy3
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 巴西圣保罗 CloudFlare节点
+    server: 188.114.96.94
+    port: 8080
+    uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+      headers:
+        host: pcs-referenced-camera-concerns.trycloudflare.com
+      path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+  - type: vmess
+    name: 美国 CloudFlare公司CDN节点(shopify)
+    server: 23.227.38.220
+    port: 8080
+    uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: pcs-referenced-camera-concerns.trycloudflare.com
+      headers:
+        host: pcs-referenced-camera-concerns.trycloudflare.com
+      path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+  - name: 美国+惠普公司
+    type: trojan
+    server: 15.236.13.247
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.55
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳 @WangCai08
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.228.43
     port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -1216,7 +858,37 @@ proxies:
       path: /?ed=2048
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.228.41
+    server: 104.21.237.66
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.141
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.44
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: '0'
@@ -1228,7 +900,554 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳 @WangCai08
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.78
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 173.245.58.1
+    port: 8080
+    uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+      headers:
+        host: larger-marketing-amounts-skin.trycloudflare.com
+      path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.233.68
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 190.93.246.243
+    port: '8080'
+    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      headers:
+        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+  - name: 美国+Xerox
+    type: trojan
+    server: 13.50.227.109
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 巴西圣保罗+CloudFlare节点
+    type: trojan
+    server: 188.114.99.29
+    port: '443'
+    password: a6292090-afe1-4640-97a7-4f1d1d877cf1
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.167
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: '/?ed=2048&Telegram🇨🇳 '
+  - type: vmess
+    name: 美国弗吉尼亚州阿什本 CloudFlare节点
+    server: 173.245.49.132
+    port: 8080
+    uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: larger-marketing-amounts-skin.trycloudflare.com
+      headers:
+        host: larger-marketing-amounts-skin.trycloudflare.com
+      path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.60
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - name: 德国+黑森州法兰克福Amazon数据中心
+    type: trojan
+    server: 35.158.32.10
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: 韩国+蘑菇主机BGP数据中心
+    type: trojan
+    server: 103.214.68.57
+    port: '10003'
+    password: 6x8HcghsjS
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.132
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.238.91
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
       path: /?ed=2048
+  - type: vmess
+    name: 广东省 移动
+    server: m.cnmjcn.com
+    port: 16645
+    uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
+      headers:
+        host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: www.brightocean.lol
+    port: '8080'
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.229.48
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.241
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.238.74
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - name: 广东省江门市+移动
+    type: ss
+    server: service.ouluyun9803.com
+    port: '21004'
+    cipher: chacha20-ietf-poly1305
+    password: cfa17a0d-5e7d-4871-976e-f116e0818123
+    udp: true
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.154
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.235.58
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.112
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.193
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳
+  - name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
+    type: trojan
+    server: 35.177.43.8
+    port: '17249'
+    password: vCxO3BEZzSpG
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.232.63
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.19
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.227.39
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.195
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: '/?ed=2048&Telegram🇨🇳 '
+  - type: vmess
+    name: 巴西圣保罗 CloudFlare节点
+    server: 188.114.98.127
+    port: 8080
+    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      headers:
+        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 108.162.192.243
+    port: 8080
+    uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      headers:
+        host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+      path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.16
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.165
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳
+  - type: vmess
+    name: 巴西圣保罗 CloudFlare节点
+    server: 188.114.96.113
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt4.ir
+      headers:
+        host: a.prapt4.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.53
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - name: 亚太地区+V2CROSS.COM
+    type: trojan
+    server: 103.154.62.22
+    port: '443'
+    password: 5bae27f5-3b8e-48f3-b91f-30fc680ea78f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.139
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.205
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.75
+    port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+  - name: 美国+俄亥俄州都柏林Amazon数据中心
+    type: trojan
+    server: 52.14.222.98
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.239
+    port: 80
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
   - type: vmess
     name: 美国 CloudFlare节点
     server: 104.21.227.16
@@ -1244,91 +1463,10 @@ proxies:
       headers:
         host: a.prapt5.ir
       path: /?ed=2048
-  - name: 美国+Amazon+EC2服务器
-    type: trojan
-    server: 3.14.144.7
-    port: '17137'
-    password: gRWkwmkN8Nxd
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.231
+    server: 104.21.225.43
     port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.17
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - name: 英国+社会保险安全部
-    type: trojan
-    server: 51.20.62.209
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.227.39
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - name: 美国+CloudFlare节点
-    type: trojan
-    server: 172.67.204.84
-    port: '443'
-    password: qj1Dz1CJmFQRhWr1SP80aA
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 德国+黑森州法兰克福AMazon数据中心
-    type: trojan
-    server: 3.121.115.239
-    port: '17107'
-    password: 6stIx3gIyVyf
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.239.78
-    port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
     cipher: auto
@@ -1342,204 +1480,7 @@ proxies:
       path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.201
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 广东省 移动
-    server: m.cnmjcn.com
-    port: '16620'
-    uuid: c99074bd-bacd-48b5-9561-da069c481602
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
-      headers:
-        host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.239.76
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.191
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /
-  - type: vmess
-    name: 广西河池市 联通
-    server: yes.cnmjcn.net
-    port: '16626'
-    uuid: bc90fb72-0b2c-45b4-a8d8-c9baa4eaaef3
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
-      headers:
-        host: d26ed26c63ea4a2a7e17c68d100791e6.mobgslb.tbcache.com
-      path: /
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.238.70
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - name: 美国+惠普公司
-    type: trojan
-    server: 15.236.13.247
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: 乌克兰+V2CROSS.COM
-    type: ss
-    server: 95.164.9.144
-    port: '2927'
-    cipher: chacha20-ietf-poly1305
-    password: ug4Fu79SEREdFGlt2sUyT4
-    udp: true
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.236
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳@WangCai08
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.12
-    port: 80
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳
-  - name: 广东省江门市+移动
-    type: ss
-    server: service.ouluyun9803.com
-    port: '21001'
-    cipher: chacha20-ietf-poly1305
-    password: cfa17a0d-5e7d-4871-976e-f116e0818123
-    udp: true
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.228.21
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048
-  - name: 美国+麻省理工学院
-    type: trojan
-    server: 18.143.101.108
-    port: '17100'
-    password: 9T6OXCaSaVF9
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - type: vmess
-    name: 美国 Fastly全球Anycast节点
-    server: 151.101.65.57
-    port: '80'
-    uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: nmsl.kp
-      headers:
-        host: nmsl.kp
-      path: /aries?ed=2048
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.225.80
-    port: '80'
-    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
-    cipher: auto
-    network: ws
-    tls: false
-    skip-cert-verify: true
-    ws-opts:
-      host: a.prapt5.ir
-      headers:
-        host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳@WangCai_8
-  - type: vmess
-    name: 美国 CloudFlare节点
-    server: 104.21.231.36
+    server: 104.21.231.55
     port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
@@ -1554,10 +1495,10 @@ proxies:
       path: /?ed=2048
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.29
-    port: '80'
+    server: 104.21.232.60
+    port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-    alterId: '0'
+    alterId: 0
     cipher: auto
     network: ws
     tls: false
@@ -1569,7 +1510,7 @@ proxies:
       path: /?ed=2048
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.98
+    server: 104.21.227.36
     port: '80'
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: '0'
@@ -1584,8 +1525,23 @@ proxies:
       path: /
   - type: vmess
     name: 美国 CloudFlare节点
-    server: 104.21.225.227
+    server: 104.21.225.69
     port: '80'
+    uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+    alterId: '0'
+    cipher: auto
+    network: ws
+    tls: false
+    skip-cert-verify: true
+    ws-opts:
+      host: a.prapt5.ir
+      headers:
+        host: a.prapt5.ir
+      path: /
+  - type: vmess
+    name: 美国 CloudFlare节点
+    server: 104.21.225.233
+    port: 80
     uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
     alterId: 0
     cipher: auto
@@ -1596,4 +1552,4 @@ proxies:
       host: a.prapt5.ir
       headers:
         host: a.prapt5.ir
-      path: /?ed=2048&Telegram🇨🇳@WangCai_8
+      path: /?ed=2048&Telegram🇨🇳 @WangCai08

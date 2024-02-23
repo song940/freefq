@@ -62,9 +62,9 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣
     type: trojan
-    server: 35.183.73.123
+    server: 52.14.149.52
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true
@@ -73,36 +73,18 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣
     type: trojan
-    server: 15.156.187.247
+    server: 35.183.73.123
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣3️⃣
     type: trojan
-    server: 3.73.62.162
-    port: '8080'
-    password: AlaJXoIfOp
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | JP🇯🇵 | 0️⃣1️⃣
-    type: trojan
-    server: jp01a.roc-taiwan.net.ua
-    port: '65011'
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @forwardv2ray | JP🇯🇵 | 0️⃣2️⃣
-    type: trojan
-    server: sg.mjt000.com
-    port: '443'
-    password: 0cdc54e5-c8e1-4350-a7b2-047e5f4c02f9
+    server: 15.156.187.247
+    port: '22222'
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2

@@ -55,6 +55,15 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣6️⃣
     type: trojan
+    server: 13.37.185.243
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣7️⃣
+    type: trojan
     server: 52.47.104.188
     port: '22222'
     password: telegram-id-privatevpns

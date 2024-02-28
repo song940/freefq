@@ -62,16 +62,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣
-    type: trojan
-    server: 52.19.240.132
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣
     type: trojan
     server: 13.43.234.54
     port: '22222'
@@ -80,7 +71,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣
     type: trojan
     server: 13.43.151.22
     port: '22222'
@@ -89,7 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣
     type: trojan
     server: 35.181.72.228
     port: '22222'
@@ -98,11 +89,56 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣4️⃣
     type: trojan
     server: 15.237.140.249
     port: '22222'
     password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CN🇨🇳 | 0️⃣1️⃣
+    type: trojan
+    server: 183.236.51.4
+    port: '10804'
+    password: 9d4678e6-da92-4cb7-ab87-76edaf203e5b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CN🇨🇳 | 0️⃣2️⃣
+    type: trojan
+    server: 183.236.51.3
+    port: '10803'
+    password: 9d4678e6-da92-4cb7-ab87-76edaf203e5b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CN🇨🇳 | 0️⃣3️⃣
+    type: trojan
+    server: 183.236.51.5
+    port: '10805'
+    password: 9d4678e6-da92-4cb7-ab87-76edaf203e5b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CN🇨🇳 | 0️⃣4️⃣
+    type: trojan
+    server: 183.236.51.2
+    port: '10802'
+    password: 9d4678e6-da92-4cb7-ab87-76edaf203e5b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | HK🇭🇰 | 0️⃣5️⃣
+    type: trojan
+    server: 220.246.88.197
+    port: '443'
+    password: 293ec37c942a47938231d849a5dca9bd
     skip-cert-verify: true
     alpn:
       - h2

@@ -62,16 +62,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣
-    type: trojan
-    server: 34.243.22.196
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣
     type: trojan
     server: 18.169.217.98
     port: '22222'
@@ -80,7 +71,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣
     type: trojan
     server: 13.43.169.197
     port: '22222'
@@ -89,7 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣
     type: trojan
     server: 35.181.210.146
     port: '22222'
@@ -98,7 +89,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣4️⃣
     type: trojan
     server: 13.39.209.209
     port: '22222'
@@ -107,34 +98,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣1️⃣
-    type: trojan
-    server: b22.ntbq.dynu.net
-    port: '19489'
-    password: 645f0af0-dec8-48db-862f-82b6346408b4
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣2️⃣
-    type: trojan
-    server: ty11t.twty.dynu.net
-    port: '13761'
-    password: 645f0af0-dec8-48db-862f-82b6346408b4
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣3️⃣
-    type: trojan
-    server: b13.ntbq.dynu.net
-    port: '9489'
-    password: 6c7e728e-29d9-41be-8be0-1e56b536e840
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣1️⃣
     type: trojan
     server: 78.141.221.194
     port: '443'
@@ -143,7 +107,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣2️⃣
     type: trojan
     server: 209.250.246.191
     port: '443'
@@ -152,7 +116,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣3️⃣
     type: trojan
     server: 45.32.148.182
     port: '443'
@@ -161,7 +125,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣7️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣4️⃣
     type: trojan
     server: 78.141.221.194
     port: '443'
@@ -179,11 +143,20 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
-    server: www.speedtest.net
+    server: 198.41.220.20
     port: '443'
-    password: UPuumdUjgp6hFTBD_23GMQ
+    password: e8105dfd24414268b6c7652c63731097
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | CA🇨🇦 | 0️⃣2️⃣
+    type: trojan
+    server: 104.19.171.3
+    port: '443'
+    password: f0eb8c92ce8946aaba856569cff1a16b
     skip-cert-verify: true
     alpn:
       - h2

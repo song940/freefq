@@ -98,20 +98,20 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | KZ🇰🇿 | 0️⃣1️⃣
-    type: trojan
-    server: 95.164.114.43
-    port: '443'
-    password: 62011b3d-2706-4a97-98b7-9986003c5fe0
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | IT🇮🇹 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | IT🇮🇹 | 0️⃣1️⃣
     type: trojan
     server: it-full.privateip.net
     port: '443'
     password: 31583130-de1f-44ce-a433-1dbb108e1846
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣2️⃣
+    type: trojan
+    server: ty11t.twty.dynu.net
+    port: '13761'
+    password: 08c8768a-31ee-447e-81aa-845399553dbf
     skip-cert-verify: true
     alpn:
       - h2
@@ -125,29 +125,29 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣
+    type: trojan
+    server: b12.ntbq.dynu.net
+    port: '9755'
+    password: 6c7e728e-29d9-41be-8be0-1e56b536e840
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣5️⃣
+    type: trojan
+    server: ty12t.twty.dynu.net
+    port: '18912'
+    password: 645f0af0-dec8-48db-862f-82b6346408b4
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - name: رایگان | TROJAN | @v2ray_swhil | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
     server: 104.16.123.175
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣
-    type: trojan
-    server: discord.com
-    port: '443'
-    password: MuZr9fkHXC
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣
-    type: trojan
-    server: 78.141.221.194
-    port: '443'
-    password: wkmY1R4EcP
     skip-cert-verify: true
     alpn:
       - h2

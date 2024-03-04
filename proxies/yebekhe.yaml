@@ -62,16 +62,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | IE🇮🇪 | 0️⃣1️⃣
-    type: trojan
-    server: 63.33.115.178
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣1️⃣
     type: trojan
     server: 13.43.246.34
     port: '22222'
@@ -80,7 +71,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣
     type: trojan
     server: 13.43.194.15
     port: '22222'
@@ -89,7 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣3️⃣
     type: trojan
     server: 13.38.206.183
     port: '22222'
@@ -98,7 +89,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣4️⃣
     type: trojan
     server: 35.181.245.237
     port: '22222'
@@ -139,6 +130,24 @@ proxies:
     server: 104.16.123.175
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣
+    type: trojan
+    server: discord.com
+    port: '443'
+    password: MuZr9fkHXC
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @ConfigsHUB | NL🇳🇱 | 0️⃣2️⃣
+    type: trojan
+    server: 78.141.221.194
+    port: '443'
+    password: wkmY1R4EcP
     skip-cert-verify: true
     alpn:
       - h2

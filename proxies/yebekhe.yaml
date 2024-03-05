@@ -1,5 +1,50 @@
 proxies:
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 18.202.83.39
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣
+    type: trojan
+    server: 108.129.0.90
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣
+    type: trojan
+    server: 18.169.253.149
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣4️⃣
+    type: trojan
+    server: 3.8.244.80
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣5️⃣
+    type: trojan
+    server: 52.47.66.241
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣6️⃣
     type: trojan
     server: 15.237.16.247
     port: '22222'
@@ -8,54 +53,9 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣7️⃣
     type: trojan
     server: 3.75.40.147
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣3️⃣
-    type: trojan
-    server: 35.156.51.199
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣4️⃣
-    type: trojan
-    server: 13.51.229.112
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣5️⃣
-    type: trojan
-    server: 16.16.119.150
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣6️⃣
-    type: trojan
-    server: 52.49.201.148
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣7️⃣
-    type: trojan
-    server: 52.215.88.111
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
@@ -83,24 +83,6 @@ proxies:
   - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣3️⃣
     type: trojan
     server: 13.58.52.96
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣4️⃣
-    type: trojan
-    server: 15.157.10.163
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣5️⃣
-    type: trojan
-    server: 15.157.138.228
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true
@@ -157,6 +139,24 @@ proxies:
     server: 104.16.123.175
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣1️⃣
+    type: trojan
+    server: 1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd
+    port: '2053'
+    password: ei9NcBFoqY
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @VmessProtocol | CA🇨🇦 | 0️⃣2️⃣
+    type: trojan
+    server: 1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd
+    port: '2053'
+    password: vXthhXEKpb
     skip-cert-verify: true
     alpn:
       - h2

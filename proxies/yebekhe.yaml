@@ -89,11 +89,29 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
+    type: trojan
+    server: us03.421421.xyz
+    port: '20230'
+    password: 2e660d96-f2d2-43c0-aa62-bf92edbac0cf
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣2️⃣
     type: trojan
     server: 104.16.123.175
     port: '2083'
     password: qG9K8AGnn9XH5jUqeFu96g
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣3️⃣
+    type: trojan
+    server: ty11t.twty.dynu.net
+    port: '13761'
+    password: 18f9d14f-e5b4-4dc5-8d19-e446b053072c
     skip-cert-verify: true
     alpn:
       - h2

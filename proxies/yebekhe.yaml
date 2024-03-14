@@ -116,25 +116,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣3️⃣
-    type: trojan
-    server: b24.ntbq.dynu.net
-    port: '3271'
-    password: 6a063257-a783-49e9-afc4-c699c49134d3
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣
-    type: trojan
-    server: b12.ntbq.dynu.net
-    port: '9755'
-    password: 6a063257-a783-49e9-afc4-c699c49134d3
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣3️⃣
     type: trojan
     server: 209.97.134.140
     port: '443'
@@ -211,6 +193,15 @@ proxies:
     server: 1-vmessprotocol-channel-join-for-more-likethis.v2rayng.cfd
     port: '2053'
     password: vXthhXEKpb
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 3.76.175.82
+    port: '22222'
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2

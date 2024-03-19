@@ -143,3 +143,21 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | GB🇬🇧 | 0️⃣1️⃣
+    type: trojan
+    server: 35.179.99.56
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @forwardv2ray | DE🇩🇪 | 0️⃣2️⃣
+    type: trojan
+    server: 51.75.77.237
+    port: '443'
+    password: 895afd17-1136-4ca2-9f8a-246f2c35d5ab
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1

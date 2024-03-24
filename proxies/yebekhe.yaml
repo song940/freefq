@@ -73,6 +73,15 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣1️⃣
     type: trojan
+    server: b24.ntbq.dynu.net
+    port: '3271'
+    password: a2db6566-32c7-4e6e-89d7-b258ff55959f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣2️⃣
+    type: trojan
     server: ty12t.twty.dynu.net
     port: '18912'
     password: a2db6566-32c7-4e6e-89d7-b258ff55959f
@@ -80,7 +89,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣3️⃣
     type: trojan
     server: b12.ntbq.dynu.net
     port: '9755'
@@ -89,20 +98,11 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣4️⃣
     type: trojan
     server: us1.n305.dynu.net
     port: '16389'
     password: 8258210b-4b61-4d96-be4f-4e6be911a6e7
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣
-    type: trojan
-    server: b22.ntbq.dynu.net
-    port: '19489'
-    password: 645f0af0-dec8-48db-862f-82b6346408b4
     skip-cert-verify: true
     alpn:
       - h2

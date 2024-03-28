@@ -118,6 +118,15 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣3️⃣
     type: trojan
+    server: nc12.twtc.dynu.net
+    port: '14656'
+    password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣4️⃣
+    type: trojan
     server: ty12t.twty.dynu.net
     port: '18912'
     password: de521ccd-0b3b-4616-a04f-c06cc4b3b077

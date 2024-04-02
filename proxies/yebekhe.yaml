@@ -1,14 +1,5 @@
 proxies:
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣1️⃣
-    type: trojan
-    server: server2.cactusrobot.ir
-    port: '8608'
-    password: V_kT5VVzTK4gfCCxQipNAA
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
     server: 104.21.25.193
     port: '2083'
@@ -100,9 +91,18 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣1️⃣
     type: trojan
-    server: b22.ntbq.dynu.net
-    port: '19489'
-    password: 4d3e7a56-7129-49c9-a1bc-068efde4728a
+    server: ty11t.twty.dynu.net
+    port: '13761'
+    password: 3bedceff-1956-4f2c-a9c1-45c74568a560
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣2️⃣
+    type: trojan
+    server: 004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com
+    port: '1007'
+    password: 85bce006-4885-11ee-8792-f23c9164ca5d
     skip-cert-verify: true
     alpn:
       - h2

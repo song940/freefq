@@ -1,5 +1,23 @@
 proxies:
+  - name: رایگان | TROJAN | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣1️⃣
+    type: trojan
+    server: server2.cactusrobot.ir
+    port: '8608'
+    password: V_kT5VVzTK4gfCCxQipNAA
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 13.49.28.198
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣
     type: trojan
     server: 13.51.124.108
     port: '22222'
@@ -17,20 +35,20 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
-    server: 3.142.67.17
-    port: '22222'
-    password: telegram-id-directvpn
+    server: 104.19.171.5
+    port: '443'
+    password: cb1f26aa437d4bfa9b841d28503ce8cc
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣2️⃣
     type: trojan
-    server: 004282c1-sbdj40-sdlngq-1n7jq.ru.z7zi.com
-    port: '1007'
-    password: 85bce006-4885-11ee-8792-f23c9164ca5d
+    server: 198.41.220.10
+    port: '443'
+    password: 2cba4104747d49d18319e5ade1b93ab5
     skip-cert-verify: true
     alpn:
       - h2

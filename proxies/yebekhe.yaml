@@ -1,13 +1,4 @@
 proxies:
-  - name: رایگان | TROJAN | @V2rayCollectorDonate | IR🇮🇷 | 0️⃣1️⃣
-    type: trojan
-    server: server2.cactusrobot.ir
-    port: '8608'
-    password: V_kT5VVzTK4gfCCxQipNAA
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣
     type: trojan
     server: 13.42.71.186
@@ -112,15 +103,6 @@ proxies:
     server: 198.41.220.10
     port: '443'
     password: 2cba4104747d49d18319e5ade1b93ab5
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣
-    type: trojan
-    server: 198.41.202.5
-    port: '443'
-    password: e8105dfd24414268b6c7652c63731097
     skip-cert-verify: true
     alpn:
       - h2

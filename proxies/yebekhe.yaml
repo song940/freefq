@@ -62,24 +62,6 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣
-    type: trojan
-    server: 13.36.56.73
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣2️⃣
-    type: trojan
-    server: 13.36.154.154
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
     server: 198.41.220.10
@@ -112,15 +94,6 @@ proxies:
     server: 45.76.130.173
     port: '443'
     password: wkmY1R4EcP
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣7️⃣
-    type: trojan
-    server: www.speedtest.net
-    port: '2083'
-    password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
     skip-cert-verify: true
     alpn:
       - h2

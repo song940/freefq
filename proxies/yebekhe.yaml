@@ -107,11 +107,29 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣4️⃣
+    type: trojan
+    server: 45.76.130.173
+    port: '443'
+    password: wkmY1R4EcP
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | CA🇨🇦 | 0️⃣7️⃣
     type: trojan
     server: www.speedtest.net
     port: '2083'
     password: 2dbd2a10-9512-4b60-84e6-5d9926a9fe5b
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣
+    type: trojan
+    server: 45.76.130.173
+    port: '443'
+    password: wkmY1R4EcP
     skip-cert-verify: true
     alpn:
       - h2

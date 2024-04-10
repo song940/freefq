@@ -1,5 +1,50 @@
 proxies:
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 63.32.131.226
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣
+    type: trojan
+    server: 18.169.254.83
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣
+    type: trojan
+    server: 3.8.30.108
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣4️⃣
+    type: trojan
+    server: 51.44.27.23
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣5️⃣
+    type: trojan
+    server: 13.39.117.25
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣6️⃣
     type: trojan
     server: 3.74.3.79
     port: '22222'
@@ -8,7 +53,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣7️⃣
     type: trojan
     server: 3.120.144.42
     port: '22222'
@@ -17,52 +62,16 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣
-    type: trojan
-    server: 13.49.160.120
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣4️⃣
-    type: trojan
-    server: 13.50.122.31
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣5️⃣
-    type: trojan
-    server: 54.246.5.3
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣6️⃣
-    type: trojan
-    server: 54.171.23.6
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣7️⃣
-    type: trojan
-    server: 18.168.248.38
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣
+    type: trojan
+    server: 18.118.177.34
+    port: '22222'
+    password: telegram-id-directvpn
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣2️⃣
     type: trojan
     server: 3.130.40.83
     port: '22222'
@@ -71,18 +80,27 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣1️⃣
     type: trojan
-    server: 3.97.211.138
-    port: '22222'
-    password: telegram-id-directvpn
+    server: sg01.freeflyingcloud.xyz
+    port: '35702'
+    password: 4d48aeee-ee05-426e-b35b-8b1ccfd74e3d
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣
     type: trojan
-    server: 3.99.35.185
+    server: 51.21.90.75
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣
+    type: trojan
+    server: 3.97.253.232
     port: '22222'
     password: telegram-id-directvpn
     skip-cert-verify: true

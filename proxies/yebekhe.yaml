@@ -1,5 +1,23 @@
 proxies:
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 18.194.227.19
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣2️⃣
+    type: trojan
+    server: 3.77.180.223
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣3️⃣
     type: trojan
     server: 51.21.90.75
     port: '22222'
@@ -8,7 +26,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣4️⃣
     type: trojan
     server: 51.21.124.59
     port: '22222'
@@ -17,7 +35,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣5️⃣
     type: trojan
     server: 54.247.84.151
     port: '22222'
@@ -26,7 +44,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣6️⃣
     type: trojan
     server: 18.202.89.92
     port: '22222'
@@ -35,7 +53,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣7️⃣
     type: trojan
     server: 18.130.162.98
     port: '22222'
@@ -44,25 +62,25 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @DirectVPN | US🇺🇸 | 0️⃣1️⃣
     type: trojan
-    server: 18.135.178.92
+    server: 3.19.113.174
     port: '22222'
-    password: telegram-id-privatevpns
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣7️⃣
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣2️⃣
     type: trojan
-    server: 35.181.174.85
+    server: 3.97.253.232
     port: '22222'
-    password: telegram-id-privatevpns
+    password: telegram-id-directvpn
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣3️⃣
     type: trojan
     server: 15.157.95.178
     port: '22222'
@@ -89,6 +107,15 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | SG🇸🇬 | 0️⃣3️⃣
+    type: trojan
+    server: sg01.freeflyingcloud.xyz
+    port: '35702'
+    password: 4d48aeee-ee05-426e-b35b-8b1ccfd74e3d
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
   - name: رایگان | TROJAN | @VmessProtocol | GB🇬🇧 | 0️⃣1️⃣
     type: trojan
     server: 45.76.130.173
@@ -98,20 +125,11 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | SE🇸🇪 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
-    server: 16.170.78.226
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | DE🇩🇪 | 0️⃣2️⃣
-    type: trojan
-    server: 18.199.191.128
-    port: '22222'
-    password: telegram-id-privatevpns
+    server: 104.26.3.186
+    port: '2083'
+    password: 656bcdfe-ae09-4170-a36e-1685ee10b26f
     skip-cert-verify: true
     alpn:
       - h2
@@ -121,15 +139,6 @@ proxies:
     server: den.irgfw.fun
     port: '2083'
     password: 3F98apiP9b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣
-    type: trojan
-    server: 188.121.117.32
-    port: '443'
-    password: 15cNx34bm8
     skip-cert-verify: true
     alpn:
       - h2

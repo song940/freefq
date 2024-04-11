@@ -116,38 +116,11 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | DE🇩🇪 | 0️⃣1️⃣
-    type: trojan
-    server: 18.158.204.212
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | IE🇮🇪 | 0️⃣2️⃣
-    type: trojan
-    server: 52.18.111.80
-    port: '22222'
-    password: telegram-id-privatevpns
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
     server: den.irgfw.fun
     port: '2083'
     password: 3F98apiP9b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @FAKEOFTVC | IR🇮🇷 | 0️⃣2️⃣
-    type: trojan
-    server: 188.121.117.32
-    port: '443'
-    password: 15cNx34bm8
     skip-cert-verify: true
     alpn:
       - h2

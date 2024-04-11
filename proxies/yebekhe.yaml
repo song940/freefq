@@ -80,24 +80,6 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣
-    type: trojan
-    server: 104.19.171.5
-    port: '443'
-    password: cb1f26aa437d4bfa9b841d28503ce8cc
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @ConfigsHUB | CA🇨🇦 | 0️⃣2️⃣
-    type: trojan
-    server: 198.41.220.10
-    port: '443'
-    password: 2cba4104747d49d18319e5ade1b93ab5
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @FAKEOFTVC | CA🇨🇦 | 0️⃣1️⃣
     type: trojan
     server: den.irgfw.fun

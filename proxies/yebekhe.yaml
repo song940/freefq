@@ -62,15 +62,6 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣
-    type: trojan
-    server: 35.181.219.117
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣1️⃣
     type: trojan
     server: fr01.freeflyingcloud.xyz
@@ -85,6 +76,15 @@ proxies:
     server: 45.76.130.173
     port: '443'
     password: wkmY1R4EcP
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣1️⃣
+    type: trojan
+    server: zula.ir
+    port: '443'
+    password: aa28db40-fc4a-11ee-83c8-1239d0255272
     skip-cert-verify: true
     alpn:
       - h2

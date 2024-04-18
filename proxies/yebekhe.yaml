@@ -107,3 +107,21 @@ proxies:
     alpn:
       - h2
       - http/1.1
+  - name: رایگان | TROJAN | @ConfigsHUB | NL🇳🇱 | 0️⃣1️⃣
+    type: trojan
+    server: nl2-full.privateip.net
+    port: '443'
+    password: 8c03bc97-6dd1-485b-9ae6-c0539929592c
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @ConfigsHUB | US🇺🇸 | 0️⃣2️⃣
+    type: trojan
+    server: us2-full.privateip.net
+    port: '443'
+    password: 8a6fc43e-b81b-4efc-ae38-4b9de1720ffe
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1

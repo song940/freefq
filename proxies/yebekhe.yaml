@@ -62,15 +62,6 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @DirectVPN | FR🇫🇷 | 0️⃣1️⃣
-    type: trojan
-    server: 13.36.74.158
-    port: '22222'
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣1️⃣
     type: trojan
     server: 65.20.102.236
@@ -89,16 +80,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣3️⃣
-    type: trojan
-    server: fr01.freeflyingcloud.xyz
-    port: '30502'
-    password: a70a906c-b48d-4f7b-b358-eb632b5d3787
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣3️⃣
     type: trojan
     server: 45.76.130.173
     port: '443'
@@ -107,7 +89,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣4️⃣
     type: trojan
     server: ru01.freeflyingcloud.xyz
     port: '30002'
@@ -116,19 +98,10 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣5️⃣
     type: trojan
     server: ru01.freeflyingcloud.xyz
     port: '30002'
-    password: ebd1c3e8-a136-49a5-a76c-88c4bf0a23aa
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣7️⃣
-    type: trojan
-    server: fr01.freeflyingcloud.xyz
-    port: '30502'
     password: ebd1c3e8-a136-49a5-a76c-88c4bf0a23aa
     skip-cert-verify: true
     alpn:

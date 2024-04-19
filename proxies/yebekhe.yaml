@@ -1,5 +1,23 @@
 proxies:
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣
+    type: trojan
+    server: 54.194.209.44
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣
+    type: trojan
+    server: 18.171.93.136
+    port: '22222'
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣
     type: trojan
     server: 13.43.234.154
     port: '22222'
@@ -8,7 +26,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣4️⃣
     type: trojan
     server: 13.36.218.113
     port: '22222'
@@ -17,7 +35,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣5️⃣
     type: trojan
     server: 15.188.154.106
     port: '22222'
@@ -26,7 +44,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣6️⃣
     type: trojan
     server: 3.67.61.209
     port: '22222'
@@ -35,7 +53,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣7️⃣
     type: trojan
     server: 18.158.189.172
     port: '22222'
@@ -44,25 +62,25 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | KR🇰🇷 | 0️⃣1️⃣
     type: trojan
-    server: 16.171.216.92
-    port: '22222'
-    password: telegram-id-privatevpns
+    server: kr01.freeflyingcloud.xyz
+    port: '24852'
+    password: 904dd222-2514-4a68-9185-32f89113afd9
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | SE🇸🇪 | 0️⃣7️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣
     type: trojan
-    server: 51.20.161.216
-    port: '22222'
-    password: telegram-id-privatevpns
+    server: jp01.freeflyingcloud.xyz
+    port: '44402'
+    password: ecc532e2-3f8b-4a30-b176-78951fda6542
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | ES🇪🇸 | 0️⃣3️⃣
     type: trojan
     server: 65.20.102.236
     port: '443'
@@ -71,7 +89,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣4️⃣
     type: trojan
     server: uk01.freeflyingcloud.xyz
     port: '22252'
@@ -80,7 +98,16 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣5️⃣
+    type: trojan
+    server: fr01.freeflyingcloud.xyz
+    port: '30502'
+    password: a70a906c-b48d-4f7b-b358-eb632b5d3787
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | GB🇬🇧 | 0️⃣6️⃣
     type: trojan
     server: 45.76.130.173
     port: '443'
@@ -89,20 +116,11 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣7️⃣
     type: trojan
     server: ru01.freeflyingcloud.xyz
     port: '30002'
     password: b07ec484-8bc6-4005-9c0e-c209bbd4bc7b
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | RU🇷🇺 | 0️⃣5️⃣
-    type: trojan
-    server: ru01.freeflyingcloud.xyz
-    port: '30002'
-    password: ebd1c3e8-a136-49a5-a76c-88c4bf0a23aa
     skip-cert-verify: true
     alpn:
       - h2

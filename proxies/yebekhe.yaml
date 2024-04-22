@@ -1,16 +1,16 @@
 proxies:
   - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣
     type: trojan
-    server: 34.252.136.42
+    server: 108.128.207.153
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣2️⃣
     type: trojan
-    server: 13.41.164.5
+    server: 34.252.136.42
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
@@ -19,16 +19,16 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣
     type: trojan
-    server: 18.169.123.159
+    server: 13.41.164.5
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣4️⃣
     type: trojan
-    server: 13.39.118.197
+    server: 18.169.123.159
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
@@ -37,16 +37,16 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣5️⃣
     type: trojan
-    server: 15.236.139.216
+    server: 13.39.118.197
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣6️⃣
+  - name: رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣6️⃣
     type: trojan
-    server: 3.123.243.23
+    server: 15.236.139.216
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
@@ -55,14 +55,23 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣7️⃣
     type: trojan
-    server: 18.153.123.239
+    server: 3.123.243.23
     port: '22222'
     password: telegram-id-privatevpns
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | IT🇮🇹 | 0️⃣1️⃣
+    type: trojan
+    server: it01.freeflyingcloud.xyz
+    port: '48102'
+    password: ecc532e2-3f8b-4a30-b176-78951fda6542
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣2️⃣
     type: trojan
     server: 104.17.147.77
     port: '443'
@@ -71,20 +80,11 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣2️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | JP🇯🇵 | 0️⃣3️⃣
     type: trojan
     server: jp01.freeflyingcloud.xyz
     port: '44402'
     password: 6d257b63-0632-4dd6-b021-3085f8dc28b2
-    skip-cert-verify: true
-    alpn:
-      - h2
-      - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣3️⃣
-    type: trojan
-    server: fr01.freeflyingcloud.xyz
-    port: '30502'
-    password: 0d5b3d65-e71e-4235-bf68-ea753ad87cc2
     skip-cert-verify: true
     alpn:
       - h2
@@ -98,20 +98,20 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣5️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | FR🇫🇷 | 0️⃣5️⃣
     type: trojan
-    server: 172.67.204.84
-    port: '443'
-    password: qj1Dz1CJmFQRhWr1SP80aA
+    server: fr01.freeflyingcloud.xyz
+    port: '30502'
+    password: 0d5b3d65-e71e-4235-bf68-ea753ad87cc2
     skip-cert-verify: true
     alpn:
       - h2
       - http/1.1
   - name: رایگان | TROJAN | @oneclickvpnkeys | US🇺🇸 | 0️⃣6️⃣
     type: trojan
-    server: 198.41.220.10
+    server: 172.67.204.84
     port: '443'
-    password: 2cba4104747d49d18319e5ade1b93ab5
+    password: qj1Dz1CJmFQRhWr1SP80aA
     skip-cert-verify: true
     alpn:
       - h2
@@ -121,6 +121,15 @@ proxies:
     server: 172.67.204.84
     port: '443'
     password: qj1Dz1CJmFQRhWr1SP80aA
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @VmessProtocol | US🇺🇸 | 0️⃣1️⃣
+    type: trojan
+    server: 198.41.220.10
+    port: '443'
+    password: 2cba4104747d49d18319e5ade1b93ab5
     skip-cert-verify: true
     alpn:
       - h2

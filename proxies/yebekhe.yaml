@@ -91,6 +91,15 @@ proxies:
       - http/1.1
   - name: رایگان | TROJAN | @v2ray1_ng | US🇺🇸 | 0️⃣1️⃣
     type: trojan
+    server: 198.41.220.4
+    port: '443'
+    password: 71409d3e488548e8bb076d229778f008
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @v2ray1_ng | US🇺🇸 | 0️⃣2️⃣
+    type: trojan
     server: 172.67.204.84
     port: '443'
     password: qj1Dz1CJmFQRhWr1SP80aA

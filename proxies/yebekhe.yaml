@@ -98,7 +98,16 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣3️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | TW🇹🇼 | 0️⃣3️⃣
+    type: trojan
+    server: 211.72.35.154
+    port: '3306'
+    password: 7b06d22a8a7c764f
+    skip-cert-verify: true
+    alpn:
+      - h2
+      - http/1.1
+  - name: رایگان | TROJAN | @oneclickvpnkeys | DE🇩🇪 | 0️⃣4️⃣
     type: trojan
     server: de2-full.privateip.net
     port: '443'
@@ -107,7 +116,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣4️⃣
+  - name: رایگان | TROJAN | @oneclickvpnkeys | NL🇳🇱 | 0️⃣5️⃣
     type: trojan
     server: nl2-full.privateip.net
     port: '443'

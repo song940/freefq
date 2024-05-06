@@ -6,9 +6,6 @@ permissions:
 on:
   push:
     branches: [ "master" ]
-  workflow_dispatch:
-  schedule:
-    - cron: "10 */2 * * *"
 
 jobs:
   build:
